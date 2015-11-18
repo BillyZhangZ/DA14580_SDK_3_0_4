@@ -1,6 +1,6 @@
 .\out\arch_system.o: ..\..\..\src\plf\refip\src\arch\main\ble\arch_system.c
-.\out\arch_system.o: E:\HGroup\Work\Ref\dialog\dialog\DA14580_SDK_3.0.4.0\dk_apps\keil_projects\hps_test\hps_test_fh\da14580_config.h
-.\out\arch_system.o: E:\HGroup\Work\Ref\dialog\dialog\DA14580_SDK_3.0.4.0\dk_apps\keil_projects\hps_test\hps_test_fh\da14580_stack_config.h
+.\out\arch_system.o: E:\HGroup\Work\Ref\dialog\dialog\DA14580_SDK_3_0_4\dk_apps\keil_projects\hps_test\hps_test_fh\da14580_config.h
+.\out\arch_system.o: E:\HGroup\Work\Ref\dialog\dialog\DA14580_SDK_3_0_4\dk_apps\keil_projects\hps_test\hps_test_fh\da14580_stack_config.h
 .\out\arch_system.o: .\..\..\..\src\plf\refip\src\arch\arch.h
 .\out\arch_system.o: C:\Keil\ARM\RV31\INC\stdint.h
 .\out\arch_system.o: .\..\..\..\src\plf\refip\src\arch\compiler\rvds\compiler.h

@@ -48,8 +48,8 @@ i.e.
     RESERVE_GPIO(DESCRIPTIVE_NAME, GPIO_PORT_0, GPIO_PIN_1, PID_GPIO);    //Reserve P_01 as Generic Purpose I/O
 */
 #ifdef CFG_PRINTF_UART2
-	RESERVE_GPIO( UART2_TX, GPIO_PORT_1,  GPIO_PIN_2, PID_UART2_TX);
-	RESERVE_GPIO( UART2_RX, GPIO_PORT_1,  GPIO_PIN_3, PID_UART2_RX);
+	RESERVE_GPIO( UART2_TX, GPIO_PORT_0,  GPIO_PIN_4, PID_UART2_TX);
+	RESERVE_GPIO( UART2_RX, GPIO_PORT_0,  GPIO_PIN_5, PID_UART2_RX);
 #endif
     
 }
@@ -66,8 +66,8 @@ void set_pad_functions(void)        // set gpio port function mode
 {
 
 #ifdef CFG_PRINTF_UART2
-	GPIO_ConfigurePin( GPIO_PORT_1, GPIO_PIN_2, OUTPUT, PID_UART2_TX, false );
-	GPIO_ConfigurePin( GPIO_PORT_1, GPIO_PIN_3, INPUT, PID_UART2_RX, false );
+	GPIO_ConfigurePin( GPIO_PORT_0, GPIO_PIN_4, OUTPUT, PID_UART2_TX, false );
+	GPIO_ConfigurePin( GPIO_PORT_0, GPIO_PIN_5, INPUT, PID_UART2_RX, false );
 #endif
 /*
 * Configure application ports.

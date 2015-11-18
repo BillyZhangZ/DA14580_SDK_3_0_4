@@ -1,6 +1,6 @@
 .\out\lanc.o: ..\..\..\src\ip\ble\hl\src\profiles\lan\lanc\lanc.c
-.\out\lanc.o: E:\HGroup\Work\Ref\dialog\dialog\DA14580_SDK_3.0.4.0\dk_apps\keil_projects\hps_test\hps_test_fh\da14580_config.h
-.\out\lanc.o: E:\HGroup\Work\Ref\dialog\dialog\DA14580_SDK_3.0.4.0\dk_apps\keil_projects\hps_test\hps_test_fh\da14580_stack_config.h
+.\out\lanc.o: E:\HGroup\Work\Ref\dialog\dialog\DA14580_SDK_3_0_4\dk_apps\keil_projects\hps_test\hps_test_fh\da14580_config.h
+.\out\lanc.o: E:\HGroup\Work\Ref\dialog\dialog\DA14580_SDK_3_0_4\dk_apps\keil_projects\hps_test\hps_test_fh\da14580_stack_config.h
 .\out\lanc.o: .\..\..\..\src\ip\ble\hl\src\profiles\lan\lan_common.h
 .\out\lanc.o: .\..\..\..\src\ip\ble\ll\src\rwble\rwble_config.h
 .\out\lanc.o: .\..\..\..\src\modules\rwip\api\rwip_config.h

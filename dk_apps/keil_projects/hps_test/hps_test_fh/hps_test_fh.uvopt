@@ -215,8 +215,8 @@
       <Focus>0</Focus>
       <ColumnNumber>0</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>146</TopLine>
-      <CurrentLine>146</CurrentLine>
+      <TopLine>0</TopLine>
+      <CurrentLine>0</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\..\..\..\src\plf\refip\src\arch\boot\rvds\boot_vectors.s</PathWithFileName>
       <FilenameWithoutPath>boot_vectors.s</FilenameWithoutPath>
@@ -248,10 +248,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>30</ColumnNumber>
+      <ColumnNumber>18</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>890</TopLine>
-      <CurrentLine>901</CurrentLine>
+      <TopLine>0</TopLine>
+      <CurrentLine>0</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\..\..\..\src\plf\refip\src\arch\main\ble\arch_main.c</PathWithFileName>
       <FilenameWithoutPath>arch_main.c</FilenameWithoutPath>
@@ -304,10 +304,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>19</ColumnNumber>
+      <ColumnNumber>65</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>0</TopLine>
-      <CurrentLine>0</CurrentLine>
+      <TopLine>49</TopLine>
+      <CurrentLine>69</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\..\..\src\modules\app\src\app_project\template_fh\system\periph_setup.c</PathWithFileName>
       <FilenameWithoutPath>periph_setup.c</FilenameWithoutPath>
@@ -367,10 +367,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>0</ColumnNumber>
+      <ColumnNumber>27</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>0</TopLine>
-      <CurrentLine>0</CurrentLine>
+      <TopLine>292</TopLine>
+      <CurrentLine>298</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\..\..\src\plf\refip\src\driver\uart\uart2.c</PathWithFileName>
       <FilenameWithoutPath>uart2.c</FilenameWithoutPath>
@@ -1090,8 +1090,8 @@
       <Focus>0</Focus>
       <ColumnNumber>5</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>1050</TopLine>
-      <CurrentLine>1068</CurrentLine>
+      <TopLine>0</TopLine>
+      <CurrentLine>0</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\..\..\..\src\ip\ble\hl\src\profiles\prf_utils.c</PathWithFileName>
       <FilenameWithoutPath>prf_utils.c</FilenameWithoutPath>
@@ -1580,8 +1580,8 @@
       <Focus>0</Focus>
       <ColumnNumber>99</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>61</TopLine>
-      <CurrentLine>72</CurrentLine>
+      <TopLine>0</TopLine>
+      <CurrentLine>0</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\..\..\src\ip\ble\hl\src\profiles\hps\hpss\hpss.c</PathWithFileName>
       <FilenameWithoutPath>hpss.c</FilenameWithoutPath>
@@ -1594,8 +1594,8 @@
       <Focus>0</Focus>
       <ColumnNumber>0</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>211</TopLine>
-      <CurrentLine>211</CurrentLine>
+      <TopLine>0</TopLine>
+      <CurrentLine>0</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\..\..\src\ip\ble\hl\src\profiles\hps\hpss\hpss_task.c</PathWithFileName>
       <FilenameWithoutPath>hpss_task.c</FilenameWithoutPath>
@@ -1611,7 +1611,7 @@
       <GroupNumber>9</GroupNumber>
       <FileNumber>98</FileNumber>
       <FileType>1</FileType>
-      <tvExp>0</tvExp>
+      <tvExp>1</tvExp>
       <Focus>0</Focus>
       <ColumnNumber>23</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -1685,8 +1685,8 @@
       <Focus>0</Focus>
       <ColumnNumber>34</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>649</TopLine>
-      <CurrentLine>662</CurrentLine>
+      <TopLine>0</TopLine>
+      <CurrentLine>0</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\..\..\src\modules\app\src\app_project\hps_test_fh\app_hps_proj.c</PathWithFileName>
       <FilenameWithoutPath>app_hps_proj.c</FilenameWithoutPath>
@@ -1699,8 +1699,8 @@
       <Focus>0</Focus>
       <ColumnNumber>29</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>76</TopLine>
-      <CurrentLine>82</CurrentLine>
+      <TopLine>0</TopLine>
+      <CurrentLine>0</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\..\..\src\modules\app\src\app_profiles\hpss\app_hps.c</PathWithFileName>
       <FilenameWithoutPath>app_hps.c</FilenameWithoutPath>
@@ -1713,8 +1713,8 @@
       <Focus>0</Focus>
       <ColumnNumber>0</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>207</TopLine>
-      <CurrentLine>216</CurrentLine>
+      <TopLine>0</TopLine>
+      <CurrentLine>0</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\..\..\src\modules\app\src\app_profiles\hpss\app_hps_task.c</PathWithFileName>
       <FilenameWithoutPath>app_hps_task.c</FilenameWithoutPath>
@@ -1722,87 +1722,9 @@
   </Group>
 
   <AlienFiles>
-    <PathWithFilename>E:\HGroup\Work\Ref\dialog\dialog\DA14580_SDK_3.0.4.0\dk_apps\src\ip\ble\hl\src\profiles\hps\hpss\hpss.h</PathWithFilename>
-    <TopLine>59</TopLine>
-    <CurrentLine>62</CurrentLine>
-    <Constant>0</Constant>
-    <WindowPosition>
-      <length>0</length>
-      <flags>0</flags>
-      <showCmd>0</showCmd>
-      <MinPosition>
-        <xPos>0</xPos>
-        <yPos>0</yPos>
-      </MinPosition>
-      <MaxPosition>
-        <xPos>0</xPos>
-        <yPos>0</yPos>
-      </MaxPosition>
-      <NormalPosition>
-        <Top>0</Top>
-        <Left>0</Left>
-        <Right>0</Right>
-        <Bottom>0</Bottom>
-      </NormalPosition>
-    </WindowPosition>
-  </AlienFiles>
-
-  <AlienFiles>
-    <PathWithFilename>E:\HGroup\Work\Ref\dialog\dialog\DA14580_SDK_3.0.4.0\dk_apps\src\ip\ble\hl\src\profiles\hps\hpss\hpss_task.h</PathWithFilename>
-    <TopLine>188</TopLine>
-    <CurrentLine>196</CurrentLine>
-    <Constant>0</Constant>
-    <WindowPosition>
-      <length>0</length>
-      <flags>0</flags>
-      <showCmd>0</showCmd>
-      <MinPosition>
-        <xPos>0</xPos>
-        <yPos>0</yPos>
-      </MinPosition>
-      <MaxPosition>
-        <xPos>0</xPos>
-        <yPos>0</yPos>
-      </MaxPosition>
-      <NormalPosition>
-        <Top>0</Top>
-        <Left>0</Left>
-        <Right>0</Right>
-        <Bottom>0</Bottom>
-      </NormalPosition>
-    </WindowPosition>
-  </AlienFiles>
-
-  <AlienFiles>
-    <PathWithFilename>E:\HGroup\Work\Ref\dialog\dialog\DA14580_SDK_3.0.4.0\dk_apps\src\modules\app\api\app_task_handlers.h</PathWithFilename>
-    <TopLine>180</TopLine>
-    <CurrentLine>191</CurrentLine>
-    <Constant>0</Constant>
-    <WindowPosition>
-      <length>0</length>
-      <flags>0</flags>
-      <showCmd>0</showCmd>
-      <MinPosition>
-        <xPos>0</xPos>
-        <yPos>0</yPos>
-      </MinPosition>
-      <MaxPosition>
-        <xPos>0</xPos>
-        <yPos>0</yPos>
-      </MaxPosition>
-      <NormalPosition>
-        <Top>0</Top>
-        <Left>0</Left>
-        <Right>0</Right>
-        <Bottom>0</Bottom>
-      </NormalPosition>
-    </WindowPosition>
-  </AlienFiles>
-
-  <AlienFiles>
-    <PathWithFilename>E:\HGroup\Work\Ref\dialog\dialog\DA14580_SDK_3.0.4.0\dk_apps\src\modules\app\src\app_profiles\hpss\app_hps_task.h</PathWithFilename>
-    <TopLine>117</TopLine>
-    <CurrentLine>143</CurrentLine>
+    <PathWithFilename>E:\HGroup\Work\Ref\dialog\dialog\DA14580_SDK_3_0_4\dk_apps\src\plf\refip\src\driver\gpio\gpio.h</PathWithFilename>
+    <TopLine>45</TopLine>
+    <CurrentLine>54</CurrentLine>
     <Constant>0</Constant>
     <WindowPosition>
       <length>0</length>
@@ -1830,79 +1752,25 @@
     <ActiveMDIGroup>0</ActiveMDIGroup>
     <MDIGroup>
       <Size>100</Size>
-      <ActiveTab>3</ActiveTab>
+      <ActiveTab>0</ActiveTab>
       <Documents>
         <Doc>
-          <Name>..\..\..\src\ip\ble\hl\src\profiles\hps\hpss\hpss.c</Name>
-          <ColumnNumber>99</ColumnNumber>
-          <TopLine>61</TopLine>
-          <CurrentLine>72</CurrentLine>
+          <Name>..\..\..\src\plf\refip\src\driver\uart\uart2.c</Name>
+          <ColumnNumber>27</ColumnNumber>
+          <TopLine>292</TopLine>
+          <CurrentLine>298</CurrentLine>
         </Doc>
         <Doc>
-          <Name>..\..\..\src\ip\ble\hl\src\profiles\hps\hpss\hpss_task.c</Name>
-          <ColumnNumber>0</ColumnNumber>
-          <TopLine>211</TopLine>
-          <CurrentLine>211</CurrentLine>
+          <Name>..\..\..\src\modules\app\src\app_project\template_fh\system\periph_setup.c</Name>
+          <ColumnNumber>65</ColumnNumber>
+          <TopLine>49</TopLine>
+          <CurrentLine>69</CurrentLine>
         </Doc>
         <Doc>
-          <Name>.\..\..\..\src\plf\refip\src\arch\boot\rvds\boot_vectors.s</Name>
-          <ColumnNumber>0</ColumnNumber>
-          <TopLine>146</TopLine>
-          <CurrentLine>146</CurrentLine>
-        </Doc>
-        <Doc>
-          <Name>.\..\..\..\src\plf\refip\src\arch\main\ble\arch_main.c</Name>
-          <ColumnNumber>30</ColumnNumber>
-          <TopLine>890</TopLine>
-          <CurrentLine>901</CurrentLine>
-        </Doc>
-        <Doc>
-          <Name>.\..\..\..\src\modules\app\src\app_profiles\hpss\app_hps_task.h</Name>
-          <ColumnNumber>3</ColumnNumber>
-          <TopLine>117</TopLine>
-          <CurrentLine>143</CurrentLine>
-        </Doc>
-        <Doc>
-          <Name>.\..\..\..\src\modules\app\api\app_task_handlers.h</Name>
-          <ColumnNumber>75</ColumnNumber>
-          <TopLine>180</TopLine>
-          <CurrentLine>191</CurrentLine>
-        </Doc>
-        <Doc>
-          <Name>.\..\..\..\src\ip\ble\hl\src\profiles\hps\hpss\hpss.h</Name>
-          <ColumnNumber>20</ColumnNumber>
-          <TopLine>59</TopLine>
-          <CurrentLine>62</CurrentLine>
-        </Doc>
-        <Doc>
-          <Name>.\..\..\..\src\ip\ble\hl\src\profiles\hps\hpss\hpss_task.h</Name>
-          <ColumnNumber>23</ColumnNumber>
-          <TopLine>188</TopLine>
-          <CurrentLine>196</CurrentLine>
-        </Doc>
-        <Doc>
-          <Name>..\..\..\src\modules\app\src\app_profiles\hpss\app_hps_task.c</Name>
-          <ColumnNumber>0</ColumnNumber>
-          <TopLine>207</TopLine>
-          <CurrentLine>216</CurrentLine>
-        </Doc>
-        <Doc>
-          <Name>..\..\..\src\modules\app\src\app_profiles\hpss\app_hps.c</Name>
-          <ColumnNumber>29</ColumnNumber>
-          <TopLine>76</TopLine>
-          <CurrentLine>82</CurrentLine>
-        </Doc>
-        <Doc>
-          <Name>.\..\..\..\src\ip\ble\hl\src\profiles\prf_utils.c</Name>
-          <ColumnNumber>5</ColumnNumber>
-          <TopLine>1050</TopLine>
-          <CurrentLine>1068</CurrentLine>
-        </Doc>
-        <Doc>
-          <Name>..\..\..\src\modules\app\src\app_project\hps_test_fh\app_hps_proj.c</Name>
-          <ColumnNumber>34</ColumnNumber>
-          <TopLine>649</TopLine>
-          <CurrentLine>662</CurrentLine>
+          <Name>.\..\..\..\src\plf\refip\src\driver\gpio\gpio.h</Name>
+          <ColumnNumber>16</ColumnNumber>
+          <TopLine>45</TopLine>
+          <CurrentLine>54</CurrentLine>
         </Doc>
       </Documents>
     </MDIGroup>

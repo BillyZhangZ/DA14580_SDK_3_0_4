@@ -419,83 +419,83 @@ Image Symbol Table
     .text                                    0x20000af4   Section        0  arch_sleep.o(.text)
     .text                                    0x20000c24   Section        0  nmi_handler.o(.text)
     .text                                    0x20000cec   Section        0  periph_setup.o(.text)
-    .text                                    0x20000de4   Section        0  arch_system.o(.text)
-    uart_is_rx_fifo_empty                    0x200011bb   Thumb Code   138  arch_system.o(.text)
-    .text                                    0x2000129c   Section        0  rf_580.o(.text)
-    rf_sleep                                 0x200012fb   Thumb Code    24  rf_580.o(.text)
-    RADIOCNTL_Handler                        0x20001313   Thumb Code     2  rf_580.o(.text)
-    rf_rssi_convert                          0x200013df   Thumb Code     2  rf_580.o(.text)
-    .text                                    0x200016dc   Section        0  uart2.o(.text)
-    uart2_rec_data_avail_isr                 0x200016dd   Thumb Code   106  uart2.o(.text)
-    uart2_rec_error_isr                      0x20001747   Thumb Code    46  uart2.o(.text)
-    uart2_thr_empty_isr                      0x20001775   Thumb Code   108  uart2.o(.text)
-    uart2_is_rx_fifo_empty                   0x200017e1   Thumb Code    22  uart2.o(.text)
-    NVIC_SetPriority                         0x20001a07   Thumb Code   110  uart2.o(.text)
-    .text                                    0x20001a8c   Section        0  ke_task.obj(.text)
-    ke_task_schedule                         0x20001a8d   Thumb Code   146  ke_task.obj(.text)
-    .text                                    0x20001b44   Section        0  ch_map.obj(.text)
-    .text                                    0x20001c08   Section        0  atts_task.obj(.text)
-    .text                                    0x20001cf4   Section        0  smpc.obj(.text)
-    .text                                    0x20001de0   Section        0  smpc_task.obj(.text)
-    .text                                    0x20001fec   Section        0  gapm_util.obj(.text)
-    gapm_adv_sanity                          0x200020bd   Thumb Code   170  gapm_util.obj(.text)
-    .text                                    0x2000216c   Section        0  nvds.o(.text)
-    .text                                    0x2000259c   Section        0  rwip.o(.text)
-    rwip_slot_2_lpcycles                     0x2000259d   Thumb Code    18  rwip.o(.text)
-    rwip_slot_2_lpcycles_rcx                 0x200025af   Thumb Code    34  rwip.o(.text)
-    .text                                    0x200027d0   Section        0  rwble.o(.text)
-    .text                                    0x200029e0   Section        0  prf_utils.o(.text)
-    .text                                    0x20002acc   Section        0  hpss.o(.text)
-    .text                                    0x20002b50   Section        0  hpss_task.o(.text)
-    hpss_create_db_req_handler               0x20002b51   Thumb Code    82  hpss_task.o(.text)
-    hpss_enable_req_handler                  0x20002ba3   Thumb Code    92  hpss_task.o(.text)
-    gattc_write_cmd_ind_handler              0x20002bff   Thumb Code   876  hpss_task.o(.text)
-    gapc_disconnect_ind_handler              0x20002f6b   Thumb Code    30  hpss_task.o(.text)
-    hpss_status_code_send_req_handler        0x20002f89   Thumb Code    90  hpss_task.o(.text)
-    .text                                    0x20002fe8   Section        0  app.o(.text)
-    .text                                    0x2000314c   Section        0  app_task.o(.text)
-    .text                                    0x200032cc   Section        0  app_console.o(.text)
-    remove_from_list                         0x200032cd   Thumb Code    22  app_console.o(.text)
-    put_to_list                              0x200032e3   Thumb Code    40  app_console.o(.text)
-    create_msg                               0x2000330b   Thumb Code    54  app_console.o(.text)
-    arch_strlen                              0x20003365   Thumb Code    16  app_console.o(.text)
-    arch_itoa                                0x20003375   Thumb Code   172  app_console.o(.text)
-    _putc                                    0x20003421   Thumb Code    38  app_console.o(.text)
-    _puts                                    0x20003447   Thumb Code    58  app_console.o(.text)
-    arch_vsnprintf                           0x20003481   Thumb Code   496  app_console.o(.text)
-    arch_snprintf                            0x20003671   Thumb Code    30  app_console.o(.text)
-    uart_callback                            0x2000368f   Thumb Code    62  app_console.o(.text)
-    .text                                    0x200037f4   Section        0  app_hps_proj.o(.text)
-    .text                                    0x20003a08   Section        0  app_hps.o(.text)
-    .text                                    0x20003a84   Section        0  app_hps_task.o(.text)
-    .text                                    0x20003ba0   Section        0  strcpy.o(.text)
-    .text                                    0x20003bb2   Section        0  fmul.o(.text)
-    .text                                    0x20003c2c   Section        0  fdiv.o(.text)
-    .text                                    0x20003cac   Section        0  ffltui.o(.text)
-    .text                                    0x20003cba   Section        0  ffixui.o(.text)
-    .text                                    0x20003ce4   Section        0  f2d.o(.text)
-    .text                                    0x20003d12   Section        0  d2f.o(.text)
-    .text                                    0x20003d4a   Section        0  fepilogue.o(.text)
-    .text                                    0x20003dd0   Section       36  init.o(.text)
-    i.GPIO_ConfigurePin                      0x200042a4   Section        0  gpio.o(i.GPIO_ConfigurePin)
-    i.GPIO_SetActive                         0x20004308   Section        0  gpio.o(i.GPIO_SetActive)
-    i.GPIO_SetInactive                       0x2000436c   Section        0  gpio.o(i.GPIO_SetInactive)
-    i.GPIO_SetPinFunction                    0x200043d0   Section        0  gpio.o(i.GPIO_SetPinFunction)
-    i.GPIO_init                              0x20004438   Section        0  gpio.o(i.GPIO_init)
-    i.__scatterload_copy                     0x20004508   Section       14  handlers.o(i.__scatterload_copy)
-    i.__scatterload_null                     0x20004516   Section        2  handlers.o(i.__scatterload_null)
-    i.__scatterload_zeroinit                 0x20004518   Section       14  handlers.o(i.__scatterload_zeroinit)
-    .constdata                               0x20004528   Section       54  arch_main.o(.constdata)
-    .constdata                               0x2000455e   Section        8  gpio.o(.constdata)
-    p_mask                                   0x2000455e   Data           8  gpio.o(.constdata)
-    .constdata                               0x20004568   Section      216  hpss.o(.constdata)
-    TASK_DESC_HPSS                           0x20004630   Data          16  hpss.o(.constdata)
-    .constdata                               0x20004640   Section       72  hpss_task.o(.constdata)
-    .constdata                               0x20004688   Section       16  app.o(.constdata)
-    TASK_DESC_APP                            0x20004688   Data          16  app.o(.constdata)
-    .constdata                               0x20004698   Section      120  app_task.o(.constdata)
-    exchange_mem_case1                       0x20004740   Section       28  uart2.o(exchange_mem_case1)
-    uart2_env                                0x20004740   Data          28  uart2.o(exchange_mem_case1)
+    .text                                    0x20000dcc   Section        0  arch_system.o(.text)
+    uart_is_rx_fifo_empty                    0x200011a3   Thumb Code   138  arch_system.o(.text)
+    .text                                    0x20001284   Section        0  rf_580.o(.text)
+    rf_sleep                                 0x200012e3   Thumb Code    24  rf_580.o(.text)
+    RADIOCNTL_Handler                        0x200012fb   Thumb Code     2  rf_580.o(.text)
+    rf_rssi_convert                          0x200013c7   Thumb Code     2  rf_580.o(.text)
+    .text                                    0x200016c4   Section        0  uart2.o(.text)
+    uart2_rec_data_avail_isr                 0x200016c5   Thumb Code   106  uart2.o(.text)
+    uart2_rec_error_isr                      0x2000172f   Thumb Code    46  uart2.o(.text)
+    uart2_thr_empty_isr                      0x2000175d   Thumb Code   108  uart2.o(.text)
+    uart2_is_rx_fifo_empty                   0x200017c9   Thumb Code    22  uart2.o(.text)
+    NVIC_SetPriority                         0x200019ef   Thumb Code   110  uart2.o(.text)
+    .text                                    0x20001a74   Section        0  ke_task.obj(.text)
+    ke_task_schedule                         0x20001a75   Thumb Code   146  ke_task.obj(.text)
+    .text                                    0x20001b2c   Section        0  ch_map.obj(.text)
+    .text                                    0x20001bf0   Section        0  atts_task.obj(.text)
+    .text                                    0x20001cdc   Section        0  smpc.obj(.text)
+    .text                                    0x20001dc8   Section        0  smpc_task.obj(.text)
+    .text                                    0x20001fd4   Section        0  gapm_util.obj(.text)
+    gapm_adv_sanity                          0x200020a5   Thumb Code   170  gapm_util.obj(.text)
+    .text                                    0x20002154   Section        0  nvds.o(.text)
+    .text                                    0x20002584   Section        0  rwip.o(.text)
+    rwip_slot_2_lpcycles                     0x20002585   Thumb Code    18  rwip.o(.text)
+    rwip_slot_2_lpcycles_rcx                 0x20002597   Thumb Code    34  rwip.o(.text)
+    .text                                    0x200027b8   Section        0  rwble.o(.text)
+    .text                                    0x200029c8   Section        0  prf_utils.o(.text)
+    .text                                    0x20002ab4   Section        0  hpss.o(.text)
+    .text                                    0x20002b38   Section        0  hpss_task.o(.text)
+    hpss_create_db_req_handler               0x20002b39   Thumb Code    82  hpss_task.o(.text)
+    hpss_enable_req_handler                  0x20002b8b   Thumb Code    92  hpss_task.o(.text)
+    gattc_write_cmd_ind_handler              0x20002be7   Thumb Code   876  hpss_task.o(.text)
+    gapc_disconnect_ind_handler              0x20002f53   Thumb Code    30  hpss_task.o(.text)
+    hpss_status_code_send_req_handler        0x20002f71   Thumb Code    90  hpss_task.o(.text)
+    .text                                    0x20002fd0   Section        0  app.o(.text)
+    .text                                    0x20003134   Section        0  app_task.o(.text)
+    .text                                    0x200032b4   Section        0  app_console.o(.text)
+    remove_from_list                         0x200032b5   Thumb Code    22  app_console.o(.text)
+    put_to_list                              0x200032cb   Thumb Code    40  app_console.o(.text)
+    create_msg                               0x200032f3   Thumb Code    54  app_console.o(.text)
+    arch_strlen                              0x2000334d   Thumb Code    16  app_console.o(.text)
+    arch_itoa                                0x2000335d   Thumb Code   172  app_console.o(.text)
+    _putc                                    0x20003409   Thumb Code    38  app_console.o(.text)
+    _puts                                    0x2000342f   Thumb Code    58  app_console.o(.text)
+    arch_vsnprintf                           0x20003469   Thumb Code   496  app_console.o(.text)
+    arch_snprintf                            0x20003659   Thumb Code    30  app_console.o(.text)
+    uart_callback                            0x20003677   Thumb Code    62  app_console.o(.text)
+    .text                                    0x200037dc   Section        0  app_hps_proj.o(.text)
+    .text                                    0x200039f0   Section        0  app_hps.o(.text)
+    .text                                    0x20003a6c   Section        0  app_hps_task.o(.text)
+    .text                                    0x20003b88   Section        0  strcpy.o(.text)
+    .text                                    0x20003b9a   Section        0  fmul.o(.text)
+    .text                                    0x20003c14   Section        0  fdiv.o(.text)
+    .text                                    0x20003c94   Section        0  ffltui.o(.text)
+    .text                                    0x20003ca2   Section        0  ffixui.o(.text)
+    .text                                    0x20003ccc   Section        0  f2d.o(.text)
+    .text                                    0x20003cfa   Section        0  d2f.o(.text)
+    .text                                    0x20003d32   Section        0  fepilogue.o(.text)
+    .text                                    0x20003db8   Section       36  init.o(.text)
+    i.GPIO_ConfigurePin                      0x2000428c   Section        0  gpio.o(i.GPIO_ConfigurePin)
+    i.GPIO_SetActive                         0x200042f0   Section        0  gpio.o(i.GPIO_SetActive)
+    i.GPIO_SetInactive                       0x20004354   Section        0  gpio.o(i.GPIO_SetInactive)
+    i.GPIO_SetPinFunction                    0x200043b8   Section        0  gpio.o(i.GPIO_SetPinFunction)
+    i.GPIO_init                              0x20004420   Section        0  gpio.o(i.GPIO_init)
+    i.__scatterload_copy                     0x200044f0   Section       14  handlers.o(i.__scatterload_copy)
+    i.__scatterload_null                     0x200044fe   Section        2  handlers.o(i.__scatterload_null)
+    i.__scatterload_zeroinit                 0x20004500   Section       14  handlers.o(i.__scatterload_zeroinit)
+    .constdata                               0x20004510   Section       54  arch_main.o(.constdata)
+    .constdata                               0x20004546   Section        8  gpio.o(.constdata)
+    p_mask                                   0x20004546   Data           8  gpio.o(.constdata)
+    .constdata                               0x20004550   Section      216  hpss.o(.constdata)
+    TASK_DESC_HPSS                           0x20004618   Data          16  hpss.o(.constdata)
+    .constdata                               0x20004628   Section       72  hpss_task.o(.constdata)
+    .constdata                               0x20004670   Section       16  app.o(.constdata)
+    TASK_DESC_APP                            0x20004670   Data          16  app.o(.constdata)
+    .constdata                               0x20004680   Section      120  app_task.o(.constdata)
+    exchange_mem_case1                       0x20004728   Section       28  uart2.o(exchange_mem_case1)
+    uart2_env                                0x20004728   Data          28  uart2.o(exchange_mem_case1)
     retention_mem_area0                      0x20008000   Section        1  arch_main.o(retention_mem_area0)
     retention_mem_area0                      0x20008001   Section        4  arch_sleep.o(retention_mem_area0)
     retention_mem_area0                      0x20008008   Section       20  arch_system.o(retention_mem_area0)
@@ -1203,258 +1203,258 @@ Image Symbol Table
     app_ble_ext_wakeup_get                   0x20000bfb   Thumb Code     6  arch_sleep.o(.text)
     app_last_rwble_evt_get                   0x20000c01   Thumb Code     6  arch_sleep.o(.text)
     NMI_HandlerC                             0x20000c25   Thumb Code   174  nmi_handler.o(.text)
-    GPIO_reservations                        0x20000ced   Thumb Code   124  periph_setup.o(.text)
-    set_pad_functions                        0x20000d69   Thumb Code    38  periph_setup.o(.text)
-    periph_init                              0x20000d8f   Thumb Code    74  periph_setup.o(.text)
-    select_lp_clk                            0x20000de5   Thumb Code     8  arch_system.o(.text)
-    init_pwr_and_clk_ble                     0x20000ded   Thumb Code   430  arch_system.o(.text)
-    set_pxact_gpio                           0x20000f9b   Thumb Code    28  arch_system.o(.text)
-    calibrate_rcx20                          0x20000fb7   Thumb Code    38  arch_system.o(.text)
-    read_rcx_freq                            0x20000fdd   Thumb Code   146  arch_system.o(.text)
-    set_sleep_delay                          0x2000106f   Thumb Code    50  arch_system.o(.text)
-    conditionally_run_radio_cals             0x200010a1   Thumb Code   178  arch_system.o(.text)
-    lld_sleep_us_2_lpcycles_rcx_func         0x20001153   Thumb Code    24  arch_system.o(.text)
-    lld_sleep_lpcycles_2_us_rcx_func         0x2000116b   Thumb Code    12  arch_system.o(.text)
-    lld_sleep_us_2_lpcycles_sel_func         0x20001177   Thumb Code    34  arch_system.o(.text)
-    lld_sleep_lpcycles_2_us_sel_func         0x20001199   Thumb Code    34  arch_system.o(.text)
-    uart_flow_off_func                       0x20001245   Thumb Code    84  arch_system.o(.text)
-    iq_trim_from_otp                         0x2000129d   Thumb Code    76  rf_580.o(.text)
-    rf_reg_rd                                0x200012e9   Thumb Code     6  rf_580.o(.text)
-    rf_reg_wr                                0x200012ef   Thumb Code     2  rf_580.o(.text)
-    rf_reset                                 0x200012f1   Thumb Code     2  rf_580.o(.text)
-    rf_force_agc_enable                      0x200012f3   Thumb Code     2  rf_580.o(.text)
-    rf_txpwr_dbm_get                         0x200012f5   Thumb Code     6  rf_580.o(.text)
-    rf_regs                                  0x20001315   Thumb Code   202  rf_580.o(.text)
-    rf_init_func                             0x200013e1   Thumb Code   214  rf_580.o(.text)
-    rf_reinit_func                           0x200014b7   Thumb Code   268  rf_580.o(.text)
-    uart2_init_func                          0x200017f7   Thumb Code   128  uart2.o(.text)
-    uart2_init                               0x20001877   Thumb Code    16  uart2.o(.text)
-    uart2_flow_on_func                       0x20001887   Thumb Code     8  uart2.o(.text)
-    uart2_flow_on                            0x2000188f   Thumb Code     8  uart2.o(.text)
-    uart2_flow_off_func                      0x20001897   Thumb Code    84  uart2.o(.text)
-    uart2_flow_off                           0x200018eb   Thumb Code     8  uart2.o(.text)
-    uart2_finish_transfers_func              0x200018f3   Thumb Code    66  uart2.o(.text)
-    uart2_finish_transfers                   0x20001935   Thumb Code     8  uart2.o(.text)
-    uart2_read_func                          0x2000193d   Thumb Code    28  uart2.o(.text)
-    uart2_read                               0x20001959   Thumb Code    20  uart2.o(.text)
-    uart2_write_func                         0x2000196d   Thumb Code    52  uart2.o(.text)
-    uart2_write                              0x200019a1   Thumb Code    20  uart2.o(.text)
-    UART2_Handler_func                       0x200019b5   Thumb Code    74  uart2.o(.text)
-    UART2_Handler                            0x200019ff   Thumb Code     8  uart2.o(.text)
-    ke_task_init_func                        0x20001b1f   Thumb Code    20  ke_task.obj(.text)
-    my_llc_con_update_req_ind                0x20001b45   Thumb Code   100  ch_map.obj(.text)
-    my_llc_ch_map_req_ind                    0x20001ba9   Thumb Code    84  ch_map.obj(.text)
-    l2cc_pdu_recv_ind_handler                0x20001c09   Thumb Code   232  atts_task.obj(.text)
-    smpc_send_pairing_req_ind                0x20001cf5   Thumb Code   190  smpc.obj(.text)
-    smpc_check_pairing_feat                  0x20001db3   Thumb Code    38  smpc.obj(.text)
-    smpc_pairing_cfm_handler                 0x20001de1   Thumb Code   518  smpc_task.obj(.text)
-    patched_gapm_adv_op_sanity               0x20001fed   Thumb Code   208  gapm_util.obj(.text)
-    custom_nvds_get_func                     0x2000216d   Thumb Code   970  nvds.o(.text)
-    nvds_read_bdaddr_from_otp                0x20002537   Thumb Code    74  nvds.o(.text)
-    rwip_sleep                               0x200025d1   Thumb Code   450  rwip.o(.text)
-    BLE_WAKEUP_LP_Handler                    0x200027d1   Thumb Code   194  rwble.o(.text)
-    lld_sleep_compensate_func_patched        0x20002893   Thumb Code    84  rwble.o(.text)
-    BLE_SLP_Handler                          0x200028e7   Thumb Code    80  rwble.o(.text)
-    BLE_RX_Handler                           0x20002937   Thumb Code     8  rwble.o(.text)
-    BLE_EVENT_Handler                        0x2000293f   Thumb Code    24  rwble.o(.text)
-    BLE_RF_DIAG_Handler                      0x20002957   Thumb Code    84  rwble.o(.text)
-    prf_server_error_ind_send                0x200029e1   Thumb Code    48  prf_utils.o(.text)
-    prf_server_send_event                    0x20002a11   Thumb Code    50  prf_utils.o(.text)
-    prf_pack_date_time                       0x20002a43   Thumb Code    50  prf_utils.o(.text)
-    prf_unpack_date_time                     0x20002a75   Thumb Code    44  prf_utils.o(.text)
-    prf_init_func                            0x20002aa1   Thumb Code     8  prf_utils.o(.text)
-    prf_cleanup_func                         0x20002aa9   Thumb Code    32  prf_utils.o(.text)
-    hpss_init                                0x20002acd   Thumb Code    28  hpss.o(.text)
-    hpss_disable                             0x20002ae9   Thumb Code    48  hpss.o(.text)
-    hpss_status_code_send_cfm_send           0x20002b19   Thumb Code    42  hpss.o(.text)
-    app_init                                 0x20002fe9   Thumb Code    62  app.o(.text)
-    app_db_init                              0x20003027   Thumb Code    14  app.o(.text)
-    app_disconnect                           0x20003035   Thumb Code    40  app.o(.text)
-    app_connect_confirm                      0x2000305d   Thumb Code    46  app.o(.text)
-    app_adv_start                            0x2000308b   Thumb Code    38  app.o(.text)
-    app_adv_stop                             0x200030b1   Thumb Code    30  app.o(.text)
-    app_param_update_start                   0x200030cf   Thumb Code     8  app.o(.text)
-    app_timer_set                            0x200030d7   Thumb Code    36  app.o(.text)
-    app_connect                              0x200030fb   Thumb Code    62  app.o(.text)
-    gapm_device_ready_ind_handler            0x2000314d   Thumb Code    48  app_task.o(.text)
-    gapm_cmp_evt_handler                     0x2000317d   Thumb Code   146  app_task.o(.text)
-    gapc_connection_req_ind_handler          0x2000320f   Thumb Code    36  app_task.o(.text)
-    gapc_cmp_evt_handler                     0x20003233   Thumb Code    62  app_task.o(.text)
-    gapc_disconnect_ind_handler              0x20003271   Thumb Code    22  app_task.o(.text)
-    app_module_init_cmp_evt_handler          0x20003287   Thumb Code    42  app_task.o(.text)
-    gapm_adv_report_ind_handler              0x200032b1   Thumb Code    20  app_task.o(.text)
-    delete_msg                               0x20003341   Thumb Code    36  app_console.o(.text)
-    arch_printf                              0x200036cd   Thumb Code   168  app_console.o(.text)
-    arch_puts                                0x20003775   Thumb Code    14  app_console.o(.text)
-    arch_printf_process                      0x20003783   Thumb Code    48  app_console.o(.text)
-    app_init_func                            0x200037f5   Thumb Code     8  app_hps_proj.o(.text)
-    app_sec_init_func                        0x200037fd   Thumb Code     2  app_hps_proj.o(.text)
-    app_connection_func                      0x200037ff   Thumb Code    66  app_hps_proj.o(.text)
-    app_adv_func                             0x20003841   Thumb Code   238  app_hps_proj.o(.text)
-    app_disconnect_func                      0x2000392f   Thumb Code    32  app_hps_proj.o(.text)
-    app_db_init_func                         0x2000394f   Thumb Code    54  app_hps_proj.o(.text)
-    app_param_update_func                    0x20003985   Thumb Code     2  app_hps_proj.o(.text)
-    app_configuration_func                   0x20003987   Thumb Code    44  app_hps_proj.o(.text)
-    app_set_dev_config_complete_func         0x200039b3   Thumb Code    24  app_hps_proj.o(.text)
-    app_update_params_rejected_func          0x200039cb   Thumb Code     2  app_hps_proj.o(.text)
-    app_update_params_complete_func          0x200039cd   Thumb Code     2  app_hps_proj.o(.text)
-    app_adv_undirect_complete                0x200039cf   Thumb Code     2  app_hps_proj.o(.text)
-    app_adv_direct_complete                  0x200039d1   Thumb Code     2  app_hps_proj.o(.text)
-    app_db_init_complete_func                0x200039d3   Thumb Code     8  app_hps_proj.o(.text)
-    app_scanning_completed_func              0x200039db   Thumb Code     2  app_hps_proj.o(.text)
-    app_connect_func                         0x200039dd   Thumb Code     2  app_hps_proj.o(.text)
-    app_adv_report_ind_func                  0x200039df   Thumb Code     2  app_hps_proj.o(.text)
-    app_connect_failed_func                  0x200039e1   Thumb Code     2  app_hps_proj.o(.text)
-    app_hps_init                             0x20003a09   Thumb Code    10  app_hps.o(.text)
-    app_hps_create_db_send                   0x20003a13   Thumb Code    28  app_hps.o(.text)
-    app_hps_enable_prf                       0x20003a2f   Thumb Code    32  app_hps.o(.text)
-    app_hps_send_status_code                 0x20003a4f   Thumb Code    38  app_hps.o(.text)
-    hpss_create_db_cfm_handler               0x20003a85   Thumb Code    48  app_hps_task.o(.text)
-    hpss_disable_ind_handler                 0x20003ab5   Thumb Code     8  app_hps_task.o(.text)
-    hpss_uri_ind_handler                     0x20003abd   Thumb Code    44  app_hps_task.o(.text)
-    hpss_header_ind_handler                  0x20003ae9   Thumb Code    44  app_hps_task.o(.text)
-    hpss_body_ind_handler                    0x20003b15   Thumb Code    44  app_hps_task.o(.text)
-    hpss_cntl_pt_ind_handler                 0x20003b41   Thumb Code    44  app_hps_task.o(.text)
-    hpss_status_code_ntf_cfg_ind_handler     0x20003b6d   Thumb Code    44  app_hps_task.o(.text)
-    strcpy                                   0x20003ba1   Thumb Code    18  strcpy.o(.text)
-    __aeabi_fmul                             0x20003bb3   Thumb Code   122  fmul.o(.text)
-    __aeabi_fdiv                             0x20003c2d   Thumb Code   128  fdiv.o(.text)
-    __aeabi_ui2f                             0x20003cad   Thumb Code    14  ffltui.o(.text)
-    __aeabi_f2uiz                            0x20003cbb   Thumb Code    42  ffixui.o(.text)
-    __aeabi_f2d                              0x20003ce5   Thumb Code    46  f2d.o(.text)
-    __aeabi_d2f                              0x20003d13   Thumb Code    56  d2f.o(.text)
-    _float_round                             0x20003d4b   Thumb Code    16  fepilogue.o(.text)
-    _float_epilogue                          0x20003d5b   Thumb Code   116  fepilogue.o(.text)
-    __scatterload                            0x20003dd1   Thumb Code    28  init.o(.text)
-    __scatterload_rt2                        0x20003dd1   Thumb Code     0  init.o(.text)
-    Long Thumb to Thumb Veneer to set_system_clocks 0x20003df5   Thumb Code    12  anon$$obj.o(Veneer$$Code)
-    Long Thumb to Thumb Veneer to srand      0x20003e01   Thumb Code    12  anon$$obj.o(Veneer$$Code)
-    Long Thumb to Thumb Veneer to nvds_init  0x20003e0d   Thumb Code    12  anon$$obj.o(Veneer$$Code)
-    Long Thumb to Thumb Veneer to rwip_init  0x20003e19   Thumb Code    12  anon$$obj.o(Veneer$$Code)
-    Long Thumb to Thumb Veneer to enable_rf_diag_irq 0x20003e25   Thumb Code    12  anon$$obj.o(Veneer$$Code)
-    Long Thumb to Thumb Veneer to app_get_sleep_mode 0x20003e31   Thumb Code    12  anon$$obj.o(Veneer$$Code)
-    Long Thumb to Thumb Veneer to rwip_prevent_sleep_get 0x20003e3d   Thumb Code    12  anon$$obj.o(Veneer$$Code)
-    Long Thumb to Thumb Veneer to ke_event_get 0x20003e49   Thumb Code    12  anon$$obj.o(Veneer$$Code)
-    Long Thumb to Thumb Veneer to rwip_schedule 0x20003e55   Thumb Code    12  anon$$obj.o(Veneer$$Code)
-    Long Thumb to Thumb Veneer to lld_sleep_check 0x20003e61   Thumb Code    12  anon$$obj.o(Veneer$$Code)
-    Long Thumb to Thumb Veneer to func_check_mem 0x20003e6d   Thumb Code    12  anon$$obj.o(Veneer$$Code)
-    Long Thumb to Thumb Veneer to test_rxdone 0x20003e79   Thumb Code    12  anon$$obj.o(Veneer$$Code)
-    Long Thumb to Thumb Veneer to ke_mem_is_empty 0x20003e85   Thumb Code    12  anon$$obj.o(Veneer$$Code)
-    Long Thumb to Thumb Veneer to __aeabi_llsl 0x20003e91   Thumb Code    12  anon$$obj.o(Veneer$$Code)
-    Long Thumb to Thumb Veneer to __aeabi_uidivmod 0x20003e9d   Thumb Code    12  anon$$obj.o(Veneer$$Code)
-    Long Thumb to Thumb Veneer to __aeabi_dmul 0x20003ea9   Thumb Code    12  anon$$obj.o(Veneer$$Code)
-    Long Thumb to Thumb Veneer to __aeabi_idivmod 0x20003eb5   Thumb Code    12  anon$$obj.o(Veneer$$Code)
-    Long Thumb to Thumb Veneer to rwip_wakeup_delay_set 0x20003ec1   Thumb Code    12  anon$$obj.o(Veneer$$Code)
-    Long Thumb to Thumb Veneer to get_rc16m_count 0x20003ecd   Thumb Code    12  anon$$obj.o(Veneer$$Code)
-    Long Thumb to Thumb Veneer to pll_vcocal_LUT_InitUpdate 0x20003ed9   Thumb Code    12  anon$$obj.o(Veneer$$Code)
-    Long Thumb to Thumb Veneer to rf_calibration 0x20003ee5   Thumb Code    12  anon$$obj.o(Veneer$$Code)
-    Long Thumb to Thumb Veneer to lld_sleep_us_2_lpcycles_func 0x20003ef1   Thumb Code    12  anon$$obj.o(Veneer$$Code)
-    Long Thumb to Thumb Veneer to lld_sleep_lpcycles_2_us_func 0x20003efd   Thumb Code    12  anon$$obj.o(Veneer$$Code)
-    Long Thumb to Thumb Veneer to uart_flow_on 0x20003f09   Thumb Code    12  anon$$obj.o(Veneer$$Code)
-    Long Thumb to Thumb Veneer to __aeabi_memcpy 0x20003f15   Thumb Code    12  anon$$obj.o(Veneer$$Code)
-    Long Thumb to Thumb Veneer to co_list_pop_front 0x20003f21   Thumb Code    12  anon$$obj.o(Veneer$$Code)
-    Long Thumb to Thumb Veneer to ke_task_handler_get 0x20003f2d   Thumb Code    12  anon$$obj.o(Veneer$$Code)
-    Long Thumb to Thumb Veneer to ke_msg_free 0x20003f39   Thumb Code    12  anon$$obj.o(Veneer$$Code)
-    Long Thumb to Thumb Veneer to co_list_push_back 0x20003f45   Thumb Code    12  anon$$obj.o(Veneer$$Code)
-    Long Thumb to Thumb Veneer to ke_event_clear 0x20003f51   Thumb Code    12  anon$$obj.o(Veneer$$Code)
-    Long Thumb to Thumb Veneer to __aeabi_memclr4 0x20003f5d   Thumb Code    12  anon$$obj.o(Veneer$$Code)
-    Long Thumb to Thumb Veneer to ke_event_callback_set 0x20003f69   Thumb Code    12  anon$$obj.o(Veneer$$Code)
-    Long Thumb to Thumb Veneer to lld_con_update_ind 0x20003f75   Thumb Code    12  anon$$obj.o(Veneer$$Code)
-    Long Thumb to Thumb Veneer to ke_state_set 0x20003f81   Thumb Code    12  anon$$obj.o(Veneer$$Code)
-    Long Thumb to Thumb Veneer to llc_util_dicon_procedure 0x20003f8d   Thumb Code    12  anon$$obj.o(Veneer$$Code)
-    Long Thumb to Thumb Veneer to lld_ch_map_ind 0x20003f99   Thumb Code    12  anon$$obj.o(Veneer$$Code)
-    Long Thumb to Thumb Veneer to ke_state_get 0x20003fa5   Thumb Code    12  anon$$obj.o(Veneer$$Code)
-    Long Thumb to Thumb Veneer to __ARM_common_switch8 0x20003fb1   Thumb Code    12  anon$$obj.o(Veneer$$Code)
-    Long Thumb to Thumb Veneer to ke_timer_clear 0x20003fbd   Thumb Code    12  anon$$obj.o(Veneer$$Code)
-    Long Thumb to Thumb Veneer to atts_send_cmd_cmp 0x20003fc9   Thumb Code    12  anon$$obj.o(Veneer$$Code)
-    Long Thumb to Thumb Veneer to atts_mtu_exc_resp 0x20003fd5   Thumb Code    12  anon$$obj.o(Veneer$$Code)
-    Long Thumb to Thumb Veneer to atts_find_info_resp 0x20003fe1   Thumb Code    12  anon$$obj.o(Veneer$$Code)
-    Long Thumb to Thumb Veneer to atts_find_by_type_resp 0x20003fed   Thumb Code    12  anon$$obj.o(Veneer$$Code)
-    Long Thumb to Thumb Veneer to atts_read_by_type_resp 0x20003ff9   Thumb Code    12  anon$$obj.o(Veneer$$Code)
-    Long Thumb to Thumb Veneer to atts_read_by_grp_type_resp 0x20004005   Thumb Code    12  anon$$obj.o(Veneer$$Code)
-    Long Thumb to Thumb Veneer to atts_read_resp 0x20004011   Thumb Code    12  anon$$obj.o(Veneer$$Code)
-    Long Thumb to Thumb Veneer to atts_read_blob_resp 0x2000401d   Thumb Code    12  anon$$obj.o(Veneer$$Code)
-    Long Thumb to Thumb Veneer to atts_read_mult_resp 0x20004029   Thumb Code    12  anon$$obj.o(Veneer$$Code)
-    Long Thumb to Thumb Veneer to atts_write_no_resp 0x20004035   Thumb Code    12  anon$$obj.o(Veneer$$Code)
-    Long Thumb to Thumb Veneer to atts_write_resp 0x20004041   Thumb Code    12  anon$$obj.o(Veneer$$Code)
-    Long Thumb to Thumb Veneer to atts_signed_write_resp 0x2000404d   Thumb Code    12  anon$$obj.o(Veneer$$Code)
-    Long Thumb to Thumb Veneer to atts_prepare_write_resp 0x20004059   Thumb Code    12  anon$$obj.o(Veneer$$Code)
-    Long Thumb to Thumb Veneer to atts_execute_write_resp 0x20004065   Thumb Code    12  anon$$obj.o(Veneer$$Code)
-    Long Thumb to Thumb Veneer to ke_msg_alloc 0x20004071   Thumb Code    12  anon$$obj.o(Veneer$$Code)
-    Long Thumb to Thumb Veneer to gapc_get_enc_keysize 0x2000407d   Thumb Code    12  anon$$obj.o(Veneer$$Code)
-    Long Thumb to Thumb Veneer to gapc_get_role 0x20004089   Thumb Code    12  anon$$obj.o(Veneer$$Code)
-    Long Thumb to Thumb Veneer to ke_msg_send 0x20004095   Thumb Code    12  anon$$obj.o(Veneer$$Code)
-    Long Thumb to Thumb Veneer to smpc_generate_rand 0x200040a1   Thumb Code    12  anon$$obj.o(Veneer$$Code)
-    Long Thumb to Thumb Veneer to smpc_tkdp_send_continue 0x200040ad   Thumb Code    12  anon$$obj.o(Veneer$$Code)
-    Long Thumb to Thumb Veneer to smpc_pdu_send 0x200040b9   Thumb Code    12  anon$$obj.o(Veneer$$Code)
-    Long Thumb to Thumb Veneer to smpc_tkdp_rcp_start 0x200040c5   Thumb Code    12  anon$$obj.o(Veneer$$Code)
-    Long Thumb to Thumb Veneer to smpc_pairing_end 0x200040d1   Thumb Code    12  anon$$obj.o(Veneer$$Code)
-    Long Thumb to Thumb Veneer to smpc_check_max_key_size 0x200040dd   Thumb Code    12  anon$$obj.o(Veneer$$Code)
-    Long Thumb to Thumb Veneer to smpc_check_key_distrib 0x200040e9   Thumb Code    12  anon$$obj.o(Veneer$$Code)
-    Long Thumb to Thumb Veneer to smpc_get_key_sec_prop 0x200040f5   Thumb Code    12  anon$$obj.o(Veneer$$Code)
-    Long Thumb to Thumb Veneer to smpc_is_sec_mode_reached 0x20004101   Thumb Code    12  anon$$obj.o(Veneer$$Code)
-    Long Thumb to Thumb Veneer to gapm_get_privacy_flag 0x2000410d   Thumb Code    12  anon$$obj.o(Veneer$$Code)
-    Long Thumb to Thumb Veneer to gapm_set_recon_addr 0x20004119   Thumb Code    12  anon$$obj.o(Veneer$$Code)
-    Long Thumb to Thumb Veneer to memcmp     0x20004125   Thumb Code    12  anon$$obj.o(Veneer$$Code)
-    Long Thumb to Thumb Veneer to ke_sleep_check 0x20004131   Thumb Code    12  anon$$obj.o(Veneer$$Code)
-    Long Thumb to Thumb Veneer to ke_timer_sleep_check 0x2000413d   Thumb Code    12  anon$$obj.o(Veneer$$Code)
-    Long Thumb to Thumb Veneer to gtl_enter_sleep 0x20004149   Thumb Code    12  anon$$obj.o(Veneer$$Code)
-    Long Thumb to Thumb Veneer to lld_sleep_enter 0x20004155   Thumb Code    12  anon$$obj.o(Veneer$$Code)
-    Long Thumb to Thumb Veneer to ble_regs_push 0x20004161   Thumb Code    12  anon$$obj.o(Veneer$$Code)
-    Long Thumb to Thumb Veneer to smpc_regs_push 0x2000416d   Thumb Code    12  anon$$obj.o(Veneer$$Code)
-    Long Thumb to Thumb Veneer to ble_regs_pop 0x20004179   Thumb Code    12  anon$$obj.o(Veneer$$Code)
-    Long Thumb to Thumb Veneer to gtl_eif_init 0x20004185   Thumb Code    12  anon$$obj.o(Veneer$$Code)
-    Long Thumb to Thumb Veneer to rwip_wakeup 0x20004191   Thumb Code    12  anon$$obj.o(Veneer$$Code)
-    Long Thumb to Thumb Veneer to rf_workaround_init 0x2000419d   Thumb Code    12  anon$$obj.o(Veneer$$Code)
-    Long Thumb to Thumb Veneer to rf_reinit  0x200041a9   Thumb Code    12  anon$$obj.o(Veneer$$Code)
-    Long Thumb to Thumb Veneer to lld_evt_rx_isr 0x200041b5   Thumb Code    12  anon$$obj.o(Veneer$$Code)
-    Long Thumb to Thumb Veneer to lld_evt_end_isr 0x200041c1   Thumb Code    12  anon$$obj.o(Veneer$$Code)
-    Long Thumb to Thumb Veneer to set_rf_cal_cap 0x200041cd   Thumb Code    12  anon$$obj.o(Veneer$$Code)
-    Long Thumb to Thumb Veneer to set_gauss_modgain 0x200041d9   Thumb Code    12  anon$$obj.o(Veneer$$Code)
-    Long Thumb to Thumb Veneer to gapc_get_conhdl 0x200041e5   Thumb Code    12  anon$$obj.o(Veneer$$Code)
-    Long Thumb to Thumb Veneer to gapc_send_disconect_ind 0x200041f1   Thumb Code    12  anon$$obj.o(Veneer$$Code)
-    Long Thumb to Thumb Veneer to __aeabi_memclr 0x200041fd   Thumb Code    12  anon$$obj.o(Veneer$$Code)
-    Long Thumb to Thumb Veneer to ke_task_create 0x20004209   Thumb Code    12  anon$$obj.o(Veneer$$Code)
-    Long Thumb to Thumb Veneer to attmdb_svc_set_permission 0x20004215   Thumb Code    12  anon$$obj.o(Veneer$$Code)
-    Long Thumb to Thumb Veneer to attm_svc_create_db 0x20004221   Thumb Code    12  anon$$obj.o(Veneer$$Code)
-    Long Thumb to Thumb Veneer to gapc_get_conidx 0x2000422d   Thumb Code    12  anon$$obj.o(Veneer$$Code)
-    Long Thumb to Thumb Veneer to attmdb_att_set_value 0x20004239   Thumb Code    12  anon$$obj.o(Veneer$$Code)
-    Long Thumb to Thumb Veneer to atts_write_rsp_send 0x20004245   Thumb Code    12  anon$$obj.o(Veneer$$Code)
-    Long Thumb to Thumb Veneer to attmdb_att_update_value 0x20004251   Thumb Code    12  anon$$obj.o(Veneer$$Code)
-    Long Thumb to Thumb Veneer to attmdb_att_get_value 0x2000425d   Thumb Code    12  anon$$obj.o(Veneer$$Code)
-    Long Thumb to Thumb Veneer to nvds_get   0x20004269   Thumb Code    12  anon$$obj.o(Veneer$$Code)
-    Long Thumb to Thumb Veneer to ke_timer_set 0x20004275   Thumb Code    12  anon$$obj.o(Veneer$$Code)
-    Long Thumb to Thumb Veneer to ke_malloc  0x20004281   Thumb Code    12  anon$$obj.o(Veneer$$Code)
-    Long Thumb to Thumb Veneer to ke_free    0x2000428d   Thumb Code    12  anon$$obj.o(Veneer$$Code)
-    Long Thumb to Thumb Veneer to __aeabi_memcpy4 0x20004299   Thumb Code    12  anon$$obj.o(Veneer$$Code)
-    GPIO_ConfigurePin                        0x200042a5   Thumb Code    96  gpio.o(i.GPIO_ConfigurePin)
-    GPIO_SetActive                           0x20004309   Thumb Code    90  gpio.o(i.GPIO_SetActive)
-    GPIO_SetInactive                         0x2000436d   Thumb Code    90  gpio.o(i.GPIO_SetInactive)
-    GPIO_SetPinFunction                      0x200043d1   Thumb Code    94  gpio.o(i.GPIO_SetPinFunction)
-    GPIO_init                                0x20004439   Thumb Code   194  gpio.o(i.GPIO_init)
-    __scatterload_copy                       0x20004509   Thumb Code    14  handlers.o(i.__scatterload_copy)
-    __scatterload_null                       0x20004517   Thumb Code     2  handlers.o(i.__scatterload_null)
-    __scatterload_zeroinit                   0x20004519   Thumb Code    14  handlers.o(i.__scatterload_zeroinit)
-    patch_table                              0x20004528   Data          32  arch_main.o(.constdata)
-    LUT_CFG                                  0x20004548   Data          22  arch_main.o(.constdata)
-    hpss_att_db                              0x20004568   Data         168  hpss.o(.constdata)
-    hps_svc                                  0x20004610   Data           2  hpss.o(.constdata)
-    hps_uri_char                             0x20004612   Data           5  hpss.o(.constdata)
-    hps_header_char                          0x20004617   Data           5  hpss.o(.constdata)
-    hps_body_char                            0x2000461c   Data           5  hpss.o(.constdata)
-    hps_cntl_pt_char                         0x20004621   Data           5  hpss.o(.constdata)
-    hps_status_code_char                     0x20004626   Data           5  hpss.o(.constdata)
-    hps_security_char                        0x2000462b   Data           5  hpss.o(.constdata)
-    hpss_disabled                            0x20004640   Data           8  hpss_task.o(.constdata)
-    hpss_idle                                0x20004648   Data           8  hpss_task.o(.constdata)
-    hpss_connected                           0x20004650   Data          16  hpss_task.o(.constdata)
-    hpss_default_state                       0x20004660   Data           8  hpss_task.o(.constdata)
-    hpss_state_handler                       0x20004668   Data          24  hpss_task.o(.constdata)
-    hpss_default_handler                     0x20004680   Data           8  hpss_task.o(.constdata)
-    app_default_state                        0x20004698   Data         112  app_task.o(.constdata)
-    app_default_handler                      0x20004708   Data           8  app_task.o(.constdata)
-    Region$$Table$$Base                      0x20004710   Number         0  anon$$obj.o(Region$$Table)
-    Region$$Table$$Limit                     0x20004740   Number         0  anon$$obj.o(Region$$Table)
+    GPIO_reservations                        0x20000ced   Thumb Code   100  periph_setup.o(.text)
+    set_pad_functions                        0x20000d51   Thumb Code    34  periph_setup.o(.text)
+    periph_init                              0x20000d73   Thumb Code    74  periph_setup.o(.text)
+    select_lp_clk                            0x20000dcd   Thumb Code     8  arch_system.o(.text)
+    init_pwr_and_clk_ble                     0x20000dd5   Thumb Code   430  arch_system.o(.text)
+    set_pxact_gpio                           0x20000f83   Thumb Code    28  arch_system.o(.text)
+    calibrate_rcx20                          0x20000f9f   Thumb Code    38  arch_system.o(.text)
+    read_rcx_freq                            0x20000fc5   Thumb Code   146  arch_system.o(.text)
+    set_sleep_delay                          0x20001057   Thumb Code    50  arch_system.o(.text)
+    conditionally_run_radio_cals             0x20001089   Thumb Code   178  arch_system.o(.text)
+    lld_sleep_us_2_lpcycles_rcx_func         0x2000113b   Thumb Code    24  arch_system.o(.text)
+    lld_sleep_lpcycles_2_us_rcx_func         0x20001153   Thumb Code    12  arch_system.o(.text)
+    lld_sleep_us_2_lpcycles_sel_func         0x2000115f   Thumb Code    34  arch_system.o(.text)
+    lld_sleep_lpcycles_2_us_sel_func         0x20001181   Thumb Code    34  arch_system.o(.text)
+    uart_flow_off_func                       0x2000122d   Thumb Code    84  arch_system.o(.text)
+    iq_trim_from_otp                         0x20001285   Thumb Code    76  rf_580.o(.text)
+    rf_reg_rd                                0x200012d1   Thumb Code     6  rf_580.o(.text)
+    rf_reg_wr                                0x200012d7   Thumb Code     2  rf_580.o(.text)
+    rf_reset                                 0x200012d9   Thumb Code     2  rf_580.o(.text)
+    rf_force_agc_enable                      0x200012db   Thumb Code     2  rf_580.o(.text)
+    rf_txpwr_dbm_get                         0x200012dd   Thumb Code     6  rf_580.o(.text)
+    rf_regs                                  0x200012fd   Thumb Code   202  rf_580.o(.text)
+    rf_init_func                             0x200013c9   Thumb Code   214  rf_580.o(.text)
+    rf_reinit_func                           0x2000149f   Thumb Code   268  rf_580.o(.text)
+    uart2_init_func                          0x200017df   Thumb Code   128  uart2.o(.text)
+    uart2_init                               0x2000185f   Thumb Code    16  uart2.o(.text)
+    uart2_flow_on_func                       0x2000186f   Thumb Code     8  uart2.o(.text)
+    uart2_flow_on                            0x20001877   Thumb Code     8  uart2.o(.text)
+    uart2_flow_off_func                      0x2000187f   Thumb Code    84  uart2.o(.text)
+    uart2_flow_off                           0x200018d3   Thumb Code     8  uart2.o(.text)
+    uart2_finish_transfers_func              0x200018db   Thumb Code    66  uart2.o(.text)
+    uart2_finish_transfers                   0x2000191d   Thumb Code     8  uart2.o(.text)
+    uart2_read_func                          0x20001925   Thumb Code    28  uart2.o(.text)
+    uart2_read                               0x20001941   Thumb Code    20  uart2.o(.text)
+    uart2_write_func                         0x20001955   Thumb Code    52  uart2.o(.text)
+    uart2_write                              0x20001989   Thumb Code    20  uart2.o(.text)
+    UART2_Handler_func                       0x2000199d   Thumb Code    74  uart2.o(.text)
+    UART2_Handler                            0x200019e7   Thumb Code     8  uart2.o(.text)
+    ke_task_init_func                        0x20001b07   Thumb Code    20  ke_task.obj(.text)
+    my_llc_con_update_req_ind                0x20001b2d   Thumb Code   100  ch_map.obj(.text)
+    my_llc_ch_map_req_ind                    0x20001b91   Thumb Code    84  ch_map.obj(.text)
+    l2cc_pdu_recv_ind_handler                0x20001bf1   Thumb Code   232  atts_task.obj(.text)
+    smpc_send_pairing_req_ind                0x20001cdd   Thumb Code   190  smpc.obj(.text)
+    smpc_check_pairing_feat                  0x20001d9b   Thumb Code    38  smpc.obj(.text)
+    smpc_pairing_cfm_handler                 0x20001dc9   Thumb Code   518  smpc_task.obj(.text)
+    patched_gapm_adv_op_sanity               0x20001fd5   Thumb Code   208  gapm_util.obj(.text)
+    custom_nvds_get_func                     0x20002155   Thumb Code   970  nvds.o(.text)
+    nvds_read_bdaddr_from_otp                0x2000251f   Thumb Code    74  nvds.o(.text)
+    rwip_sleep                               0x200025b9   Thumb Code   450  rwip.o(.text)
+    BLE_WAKEUP_LP_Handler                    0x200027b9   Thumb Code   194  rwble.o(.text)
+    lld_sleep_compensate_func_patched        0x2000287b   Thumb Code    84  rwble.o(.text)
+    BLE_SLP_Handler                          0x200028cf   Thumb Code    80  rwble.o(.text)
+    BLE_RX_Handler                           0x2000291f   Thumb Code     8  rwble.o(.text)
+    BLE_EVENT_Handler                        0x20002927   Thumb Code    24  rwble.o(.text)
+    BLE_RF_DIAG_Handler                      0x2000293f   Thumb Code    84  rwble.o(.text)
+    prf_server_error_ind_send                0x200029c9   Thumb Code    48  prf_utils.o(.text)
+    prf_server_send_event                    0x200029f9   Thumb Code    50  prf_utils.o(.text)
+    prf_pack_date_time                       0x20002a2b   Thumb Code    50  prf_utils.o(.text)
+    prf_unpack_date_time                     0x20002a5d   Thumb Code    44  prf_utils.o(.text)
+    prf_init_func                            0x20002a89   Thumb Code     8  prf_utils.o(.text)
+    prf_cleanup_func                         0x20002a91   Thumb Code    32  prf_utils.o(.text)
+    hpss_init                                0x20002ab5   Thumb Code    28  hpss.o(.text)
+    hpss_disable                             0x20002ad1   Thumb Code    48  hpss.o(.text)
+    hpss_status_code_send_cfm_send           0x20002b01   Thumb Code    42  hpss.o(.text)
+    app_init                                 0x20002fd1   Thumb Code    62  app.o(.text)
+    app_db_init                              0x2000300f   Thumb Code    14  app.o(.text)
+    app_disconnect                           0x2000301d   Thumb Code    40  app.o(.text)
+    app_connect_confirm                      0x20003045   Thumb Code    46  app.o(.text)
+    app_adv_start                            0x20003073   Thumb Code    38  app.o(.text)
+    app_adv_stop                             0x20003099   Thumb Code    30  app.o(.text)
+    app_param_update_start                   0x200030b7   Thumb Code     8  app.o(.text)
+    app_timer_set                            0x200030bf   Thumb Code    36  app.o(.text)
+    app_connect                              0x200030e3   Thumb Code    62  app.o(.text)
+    gapm_device_ready_ind_handler            0x20003135   Thumb Code    48  app_task.o(.text)
+    gapm_cmp_evt_handler                     0x20003165   Thumb Code   146  app_task.o(.text)
+    gapc_connection_req_ind_handler          0x200031f7   Thumb Code    36  app_task.o(.text)
+    gapc_cmp_evt_handler                     0x2000321b   Thumb Code    62  app_task.o(.text)
+    gapc_disconnect_ind_handler              0x20003259   Thumb Code    22  app_task.o(.text)
+    app_module_init_cmp_evt_handler          0x2000326f   Thumb Code    42  app_task.o(.text)
+    gapm_adv_report_ind_handler              0x20003299   Thumb Code    20  app_task.o(.text)
+    delete_msg                               0x20003329   Thumb Code    36  app_console.o(.text)
+    arch_printf                              0x200036b5   Thumb Code   168  app_console.o(.text)
+    arch_puts                                0x2000375d   Thumb Code    14  app_console.o(.text)
+    arch_printf_process                      0x2000376b   Thumb Code    48  app_console.o(.text)
+    app_init_func                            0x200037dd   Thumb Code     8  app_hps_proj.o(.text)
+    app_sec_init_func                        0x200037e5   Thumb Code     2  app_hps_proj.o(.text)
+    app_connection_func                      0x200037e7   Thumb Code    66  app_hps_proj.o(.text)
+    app_adv_func                             0x20003829   Thumb Code   238  app_hps_proj.o(.text)
+    app_disconnect_func                      0x20003917   Thumb Code    32  app_hps_proj.o(.text)
+    app_db_init_func                         0x20003937   Thumb Code    54  app_hps_proj.o(.text)
+    app_param_update_func                    0x2000396d   Thumb Code     2  app_hps_proj.o(.text)
+    app_configuration_func                   0x2000396f   Thumb Code    44  app_hps_proj.o(.text)
+    app_set_dev_config_complete_func         0x2000399b   Thumb Code    24  app_hps_proj.o(.text)
+    app_update_params_rejected_func          0x200039b3   Thumb Code     2  app_hps_proj.o(.text)
+    app_update_params_complete_func          0x200039b5   Thumb Code     2  app_hps_proj.o(.text)
+    app_adv_undirect_complete                0x200039b7   Thumb Code     2  app_hps_proj.o(.text)
+    app_adv_direct_complete                  0x200039b9   Thumb Code     2  app_hps_proj.o(.text)
+    app_db_init_complete_func                0x200039bb   Thumb Code     8  app_hps_proj.o(.text)
+    app_scanning_completed_func              0x200039c3   Thumb Code     2  app_hps_proj.o(.text)
+    app_connect_func                         0x200039c5   Thumb Code     2  app_hps_proj.o(.text)
+    app_adv_report_ind_func                  0x200039c7   Thumb Code     2  app_hps_proj.o(.text)
+    app_connect_failed_func                  0x200039c9   Thumb Code     2  app_hps_proj.o(.text)
+    app_hps_init                             0x200039f1   Thumb Code    10  app_hps.o(.text)
+    app_hps_create_db_send                   0x200039fb   Thumb Code    28  app_hps.o(.text)
+    app_hps_enable_prf                       0x20003a17   Thumb Code    32  app_hps.o(.text)
+    app_hps_send_status_code                 0x20003a37   Thumb Code    38  app_hps.o(.text)
+    hpss_create_db_cfm_handler               0x20003a6d   Thumb Code    48  app_hps_task.o(.text)
+    hpss_disable_ind_handler                 0x20003a9d   Thumb Code     8  app_hps_task.o(.text)
+    hpss_uri_ind_handler                     0x20003aa5   Thumb Code    44  app_hps_task.o(.text)
+    hpss_header_ind_handler                  0x20003ad1   Thumb Code    44  app_hps_task.o(.text)
+    hpss_body_ind_handler                    0x20003afd   Thumb Code    44  app_hps_task.o(.text)
+    hpss_cntl_pt_ind_handler                 0x20003b29   Thumb Code    44  app_hps_task.o(.text)
+    hpss_status_code_ntf_cfg_ind_handler     0x20003b55   Thumb Code    44  app_hps_task.o(.text)
+    strcpy                                   0x20003b89   Thumb Code    18  strcpy.o(.text)
+    __aeabi_fmul                             0x20003b9b   Thumb Code   122  fmul.o(.text)
+    __aeabi_fdiv                             0x20003c15   Thumb Code   128  fdiv.o(.text)
+    __aeabi_ui2f                             0x20003c95   Thumb Code    14  ffltui.o(.text)
+    __aeabi_f2uiz                            0x20003ca3   Thumb Code    42  ffixui.o(.text)
+    __aeabi_f2d                              0x20003ccd   Thumb Code    46  f2d.o(.text)
+    __aeabi_d2f                              0x20003cfb   Thumb Code    56  d2f.o(.text)
+    _float_round                             0x20003d33   Thumb Code    16  fepilogue.o(.text)
+    _float_epilogue                          0x20003d43   Thumb Code   116  fepilogue.o(.text)
+    __scatterload                            0x20003db9   Thumb Code    28  init.o(.text)
+    __scatterload_rt2                        0x20003db9   Thumb Code     0  init.o(.text)
+    Long Thumb to Thumb Veneer to set_system_clocks 0x20003ddd   Thumb Code    12  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to srand      0x20003de9   Thumb Code    12  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to nvds_init  0x20003df5   Thumb Code    12  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to rwip_init  0x20003e01   Thumb Code    12  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to enable_rf_diag_irq 0x20003e0d   Thumb Code    12  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to app_get_sleep_mode 0x20003e19   Thumb Code    12  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to rwip_prevent_sleep_get 0x20003e25   Thumb Code    12  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to ke_event_get 0x20003e31   Thumb Code    12  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to rwip_schedule 0x20003e3d   Thumb Code    12  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to lld_sleep_check 0x20003e49   Thumb Code    12  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to func_check_mem 0x20003e55   Thumb Code    12  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to test_rxdone 0x20003e61   Thumb Code    12  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to ke_mem_is_empty 0x20003e6d   Thumb Code    12  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to __aeabi_llsl 0x20003e79   Thumb Code    12  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to __aeabi_uidivmod 0x20003e85   Thumb Code    12  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to __aeabi_dmul 0x20003e91   Thumb Code    12  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to __aeabi_idivmod 0x20003e9d   Thumb Code    12  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to rwip_wakeup_delay_set 0x20003ea9   Thumb Code    12  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to get_rc16m_count 0x20003eb5   Thumb Code    12  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to pll_vcocal_LUT_InitUpdate 0x20003ec1   Thumb Code    12  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to rf_calibration 0x20003ecd   Thumb Code    12  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to lld_sleep_us_2_lpcycles_func 0x20003ed9   Thumb Code    12  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to lld_sleep_lpcycles_2_us_func 0x20003ee5   Thumb Code    12  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to uart_flow_on 0x20003ef1   Thumb Code    12  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to __aeabi_memcpy 0x20003efd   Thumb Code    12  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to co_list_pop_front 0x20003f09   Thumb Code    12  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to ke_task_handler_get 0x20003f15   Thumb Code    12  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to ke_msg_free 0x20003f21   Thumb Code    12  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to co_list_push_back 0x20003f2d   Thumb Code    12  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to ke_event_clear 0x20003f39   Thumb Code    12  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to __aeabi_memclr4 0x20003f45   Thumb Code    12  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to ke_event_callback_set 0x20003f51   Thumb Code    12  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to lld_con_update_ind 0x20003f5d   Thumb Code    12  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to ke_state_set 0x20003f69   Thumb Code    12  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to llc_util_dicon_procedure 0x20003f75   Thumb Code    12  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to lld_ch_map_ind 0x20003f81   Thumb Code    12  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to ke_state_get 0x20003f8d   Thumb Code    12  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to __ARM_common_switch8 0x20003f99   Thumb Code    12  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to ke_timer_clear 0x20003fa5   Thumb Code    12  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to atts_send_cmd_cmp 0x20003fb1   Thumb Code    12  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to atts_mtu_exc_resp 0x20003fbd   Thumb Code    12  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to atts_find_info_resp 0x20003fc9   Thumb Code    12  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to atts_find_by_type_resp 0x20003fd5   Thumb Code    12  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to atts_read_by_type_resp 0x20003fe1   Thumb Code    12  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to atts_read_by_grp_type_resp 0x20003fed   Thumb Code    12  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to atts_read_resp 0x20003ff9   Thumb Code    12  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to atts_read_blob_resp 0x20004005   Thumb Code    12  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to atts_read_mult_resp 0x20004011   Thumb Code    12  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to atts_write_no_resp 0x2000401d   Thumb Code    12  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to atts_write_resp 0x20004029   Thumb Code    12  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to atts_signed_write_resp 0x20004035   Thumb Code    12  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to atts_prepare_write_resp 0x20004041   Thumb Code    12  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to atts_execute_write_resp 0x2000404d   Thumb Code    12  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to ke_msg_alloc 0x20004059   Thumb Code    12  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to gapc_get_enc_keysize 0x20004065   Thumb Code    12  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to gapc_get_role 0x20004071   Thumb Code    12  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to ke_msg_send 0x2000407d   Thumb Code    12  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to smpc_generate_rand 0x20004089   Thumb Code    12  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to smpc_tkdp_send_continue 0x20004095   Thumb Code    12  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to smpc_pdu_send 0x200040a1   Thumb Code    12  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to smpc_tkdp_rcp_start 0x200040ad   Thumb Code    12  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to smpc_pairing_end 0x200040b9   Thumb Code    12  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to smpc_check_max_key_size 0x200040c5   Thumb Code    12  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to smpc_check_key_distrib 0x200040d1   Thumb Code    12  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to smpc_get_key_sec_prop 0x200040dd   Thumb Code    12  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to smpc_is_sec_mode_reached 0x200040e9   Thumb Code    12  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to gapm_get_privacy_flag 0x200040f5   Thumb Code    12  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to gapm_set_recon_addr 0x20004101   Thumb Code    12  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to memcmp     0x2000410d   Thumb Code    12  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to ke_sleep_check 0x20004119   Thumb Code    12  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to ke_timer_sleep_check 0x20004125   Thumb Code    12  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to gtl_enter_sleep 0x20004131   Thumb Code    12  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to lld_sleep_enter 0x2000413d   Thumb Code    12  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to ble_regs_push 0x20004149   Thumb Code    12  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to smpc_regs_push 0x20004155   Thumb Code    12  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to ble_regs_pop 0x20004161   Thumb Code    12  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to gtl_eif_init 0x2000416d   Thumb Code    12  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to rwip_wakeup 0x20004179   Thumb Code    12  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to rf_workaround_init 0x20004185   Thumb Code    12  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to rf_reinit  0x20004191   Thumb Code    12  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to lld_evt_rx_isr 0x2000419d   Thumb Code    12  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to lld_evt_end_isr 0x200041a9   Thumb Code    12  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to set_rf_cal_cap 0x200041b5   Thumb Code    12  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to set_gauss_modgain 0x200041c1   Thumb Code    12  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to gapc_get_conhdl 0x200041cd   Thumb Code    12  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to gapc_send_disconect_ind 0x200041d9   Thumb Code    12  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to __aeabi_memclr 0x200041e5   Thumb Code    12  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to ke_task_create 0x200041f1   Thumb Code    12  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to attmdb_svc_set_permission 0x200041fd   Thumb Code    12  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to attm_svc_create_db 0x20004209   Thumb Code    12  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to gapc_get_conidx 0x20004215   Thumb Code    12  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to attmdb_att_set_value 0x20004221   Thumb Code    12  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to atts_write_rsp_send 0x2000422d   Thumb Code    12  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to attmdb_att_update_value 0x20004239   Thumb Code    12  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to attmdb_att_get_value 0x20004245   Thumb Code    12  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to nvds_get   0x20004251   Thumb Code    12  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to ke_timer_set 0x2000425d   Thumb Code    12  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to ke_malloc  0x20004269   Thumb Code    12  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to ke_free    0x20004275   Thumb Code    12  anon$$obj.o(Veneer$$Code)
+    Long Thumb to Thumb Veneer to __aeabi_memcpy4 0x20004281   Thumb Code    12  anon$$obj.o(Veneer$$Code)
+    GPIO_ConfigurePin                        0x2000428d   Thumb Code    96  gpio.o(i.GPIO_ConfigurePin)
+    GPIO_SetActive                           0x200042f1   Thumb Code    90  gpio.o(i.GPIO_SetActive)
+    GPIO_SetInactive                         0x20004355   Thumb Code    90  gpio.o(i.GPIO_SetInactive)
+    GPIO_SetPinFunction                      0x200043b9   Thumb Code    94  gpio.o(i.GPIO_SetPinFunction)
+    GPIO_init                                0x20004421   Thumb Code   194  gpio.o(i.GPIO_init)
+    __scatterload_copy                       0x200044f1   Thumb Code    14  handlers.o(i.__scatterload_copy)
+    __scatterload_null                       0x200044ff   Thumb Code     2  handlers.o(i.__scatterload_null)
+    __scatterload_zeroinit                   0x20004501   Thumb Code    14  handlers.o(i.__scatterload_zeroinit)
+    patch_table                              0x20004510   Data          32  arch_main.o(.constdata)
+    LUT_CFG                                  0x20004530   Data          22  arch_main.o(.constdata)
+    hpss_att_db                              0x20004550   Data         168  hpss.o(.constdata)
+    hps_svc                                  0x200045f8   Data           2  hpss.o(.constdata)
+    hps_uri_char                             0x200045fa   Data           5  hpss.o(.constdata)
+    hps_header_char                          0x200045ff   Data           5  hpss.o(.constdata)
+    hps_body_char                            0x20004604   Data           5  hpss.o(.constdata)
+    hps_cntl_pt_char                         0x20004609   Data           5  hpss.o(.constdata)
+    hps_status_code_char                     0x2000460e   Data           5  hpss.o(.constdata)
+    hps_security_char                        0x20004613   Data           5  hpss.o(.constdata)
+    hpss_disabled                            0x20004628   Data           8  hpss_task.o(.constdata)
+    hpss_idle                                0x20004630   Data           8  hpss_task.o(.constdata)
+    hpss_connected                           0x20004638   Data          16  hpss_task.o(.constdata)
+    hpss_default_state                       0x20004648   Data           8  hpss_task.o(.constdata)
+    hpss_state_handler                       0x20004650   Data          24  hpss_task.o(.constdata)
+    hpss_default_handler                     0x20004668   Data           8  hpss_task.o(.constdata)
+    app_default_state                        0x20004680   Data         112  app_task.o(.constdata)
+    app_default_handler                      0x200046f0   Data           8  app_task.o(.constdata)
+    Region$$Table$$Base                      0x200046f8   Number         0  anon$$obj.o(Region$$Table)
+    Region$$Table$$Limit                     0x20004728   Number         0  anon$$obj.o(Region$$Table)
     sys_startup_flag                         0x20008000   Data           1  arch_main.o(retention_mem_area0)
     sleep_md                                 0x20008001   Data           1  arch_sleep.o(retention_mem_area0)
     sleep_pend                               0x20008002   Data           1  arch_sleep.o(retention_mem_area0)
@@ -1529,9 +1529,9 @@ Memory Map of the image
 
 
 
-  Load Region LR_IROM5 (Base: 0x20000440, Size: 0x0000431c, Max: 0x000093c0, ABSOLUTE)
+  Load Region LR_IROM5 (Base: 0x20000440, Size: 0x00004304, Max: 0x000093c0, ABSOLUTE)
 
-    Execution Region ER_IROM5 (Base: 0x20000440, Size: 0x0000431c, Max: 0x00007ac0, ABSOLUTE)
+    Execution Region ER_IROM5 (Base: 0x20000440, Size: 0x00004304, Max: 0x00007ac0, ABSOLUTE)
 
     Base Addr    Size         Type   Attr      Idx    E Section Name        Object
 
@@ -1553,156 +1553,156 @@ Memory Map of the image
     0x20000af2   0x00000002   PAD
     0x20000af4   0x00000130   Code   RO          461    .text               arch_sleep.o
     0x20000c24   0x000000c8   Code   RO          478    .text               nmi_handler.o
-    0x20000cec   0x000000f8   Code   RO          500    .text               periph_setup.o
-    0x20000de4   0x000004b8   Code   RO          515    .text               arch_system.o
-    0x2000129c   0x00000440   Code   RO          556    .text               rf_580.o
-    0x200016dc   0x000003b0   Code   RO          630    .text               uart2.o
-    0x20001a8c   0x000000b8   Code   RO          659    .text               ke_task.obj
-    0x20001b44   0x000000c4   Code   RO          661    .text               ch_map.obj
-    0x20001c08   0x000000ec   Code   RO          712    .text               atts_task.obj
-    0x20001cf4   0x000000ec   Code   RO          716    .text               smpc.obj
-    0x20001de0   0x0000020c   Code   RO          718    .text               smpc_task.obj
-    0x20001fec   0x00000180   Code   RO          720    .text               gapm_util.obj
-    0x2000216c   0x00000430   Code   RO          904    .text               nvds.o
-    0x2000259c   0x00000234   Code   RO          921    .text               rwip.o
-    0x200027d0   0x00000210   Code   RO          940    .text               rwble.o
-    0x200029e0   0x000000ec   Code   RO         1219    .text               prf_utils.o
-    0x20002acc   0x00000084   Code   RO         1478    .text               hpss.o
-    0x20002b50   0x00000498   Code   RO         1501    .text               hpss_task.o
-    0x20002fe8   0x00000164   Code   RO         1533    .text               app.o
-    0x2000314c   0x00000180   Code   RO         1603    .text               app_task.o
-    0x200032cc   0x00000528   Code   RO         1632    .text               app_console.o
-    0x200037f4   0x00000214   Code   RO         1666    .text               app_hps_proj.o
-    0x20003a08   0x0000007c   Code   RO         1687    .text               app_hps.o
-    0x20003a84   0x0000011c   Code   RO         1705    .text               app_hps_task.o
-    0x20003ba0   0x00000012   Code   RO         1718    .text               mc_p.l(strcpy.o)
-    0x20003bb2   0x0000007a   Code   RO         1720    .text               mf_p.l(fmul.o)
-    0x20003c2c   0x00000080   Code   RO         1722    .text               mf_p.l(fdiv.o)
-    0x20003cac   0x0000000e   Code   RO         1724    .text               mf_p.l(ffltui.o)
-    0x20003cba   0x0000002a   Code   RO         1726    .text               mf_p.l(ffixui.o)
-    0x20003ce4   0x0000002e   Code   RO         1728    .text               mf_p.l(f2d.o)
-    0x20003d12   0x00000038   Code   RO         1730    .text               mf_p.l(d2f.o)
-    0x20003d4a   0x00000084   Code   RO         1739    .text               mf_p.l(fepilogue.o)
-    0x20003dce   0x00000002   PAD
-    0x20003dd0   0x00000024   Code   RO         1741    .text               mc_p.l(init.o)
-    0x20003df4   0x0000000c   Ven    RO         1751    Veneer$$Code        anon$$obj.o
-    0x20003e00   0x0000000c   Ven    RO         1752    Veneer$$Code        anon$$obj.o
-    0x20003e0c   0x0000000c   Ven    RO         1753    Veneer$$Code        anon$$obj.o
-    0x20003e18   0x0000000c   Ven    RO         1754    Veneer$$Code        anon$$obj.o
-    0x20003e24   0x0000000c   Ven    RO         1755    Veneer$$Code        anon$$obj.o
-    0x20003e30   0x0000000c   Ven    RO         1756    Veneer$$Code        anon$$obj.o
-    0x20003e3c   0x0000000c   Ven    RO         1757    Veneer$$Code        anon$$obj.o
-    0x20003e48   0x0000000c   Ven    RO         1758    Veneer$$Code        anon$$obj.o
-    0x20003e54   0x0000000c   Ven    RO         1759    Veneer$$Code        anon$$obj.o
-    0x20003e60   0x0000000c   Ven    RO         1760    Veneer$$Code        anon$$obj.o
-    0x20003e6c   0x0000000c   Ven    RO         1761    Veneer$$Code        anon$$obj.o
-    0x20003e78   0x0000000c   Ven    RO         1762    Veneer$$Code        anon$$obj.o
-    0x20003e84   0x0000000c   Ven    RO         1763    Veneer$$Code        anon$$obj.o
-    0x20003e90   0x0000000c   Ven    RO         1764    Veneer$$Code        anon$$obj.o
-    0x20003e9c   0x0000000c   Ven    RO         1765    Veneer$$Code        anon$$obj.o
-    0x20003ea8   0x0000000c   Ven    RO         1766    Veneer$$Code        anon$$obj.o
-    0x20003eb4   0x0000000c   Ven    RO         1767    Veneer$$Code        anon$$obj.o
-    0x20003ec0   0x0000000c   Ven    RO         1768    Veneer$$Code        anon$$obj.o
-    0x20003ecc   0x0000000c   Ven    RO         1769    Veneer$$Code        anon$$obj.o
-    0x20003ed8   0x0000000c   Ven    RO         1770    Veneer$$Code        anon$$obj.o
-    0x20003ee4   0x0000000c   Ven    RO         1771    Veneer$$Code        anon$$obj.o
-    0x20003ef0   0x0000000c   Ven    RO         1772    Veneer$$Code        anon$$obj.o
-    0x20003efc   0x0000000c   Ven    RO         1773    Veneer$$Code        anon$$obj.o
-    0x20003f08   0x0000000c   Ven    RO         1774    Veneer$$Code        anon$$obj.o
-    0x20003f14   0x0000000c   Ven    RO         1775    Veneer$$Code        anon$$obj.o
-    0x20003f20   0x0000000c   Ven    RO         1776    Veneer$$Code        anon$$obj.o
-    0x20003f2c   0x0000000c   Ven    RO         1777    Veneer$$Code        anon$$obj.o
-    0x20003f38   0x0000000c   Ven    RO         1778    Veneer$$Code        anon$$obj.o
-    0x20003f44   0x0000000c   Ven    RO         1779    Veneer$$Code        anon$$obj.o
-    0x20003f50   0x0000000c   Ven    RO         1780    Veneer$$Code        anon$$obj.o
-    0x20003f5c   0x0000000c   Ven    RO         1781    Veneer$$Code        anon$$obj.o
-    0x20003f68   0x0000000c   Ven    RO         1782    Veneer$$Code        anon$$obj.o
-    0x20003f74   0x0000000c   Ven    RO         1783    Veneer$$Code        anon$$obj.o
-    0x20003f80   0x0000000c   Ven    RO         1784    Veneer$$Code        anon$$obj.o
-    0x20003f8c   0x0000000c   Ven    RO         1785    Veneer$$Code        anon$$obj.o
-    0x20003f98   0x0000000c   Ven    RO         1786    Veneer$$Code        anon$$obj.o
-    0x20003fa4   0x0000000c   Ven    RO         1787    Veneer$$Code        anon$$obj.o
-    0x20003fb0   0x0000000c   Ven    RO         1788    Veneer$$Code        anon$$obj.o
-    0x20003fbc   0x0000000c   Ven    RO         1789    Veneer$$Code        anon$$obj.o
-    0x20003fc8   0x0000000c   Ven    RO         1790    Veneer$$Code        anon$$obj.o
-    0x20003fd4   0x0000000c   Ven    RO         1791    Veneer$$Code        anon$$obj.o
-    0x20003fe0   0x0000000c   Ven    RO         1792    Veneer$$Code        anon$$obj.o
-    0x20003fec   0x0000000c   Ven    RO         1793    Veneer$$Code        anon$$obj.o
-    0x20003ff8   0x0000000c   Ven    RO         1794    Veneer$$Code        anon$$obj.o
-    0x20004004   0x0000000c   Ven    RO         1795    Veneer$$Code        anon$$obj.o
-    0x20004010   0x0000000c   Ven    RO         1796    Veneer$$Code        anon$$obj.o
-    0x2000401c   0x0000000c   Ven    RO         1797    Veneer$$Code        anon$$obj.o
-    0x20004028   0x0000000c   Ven    RO         1798    Veneer$$Code        anon$$obj.o
-    0x20004034   0x0000000c   Ven    RO         1799    Veneer$$Code        anon$$obj.o
-    0x20004040   0x0000000c   Ven    RO         1800    Veneer$$Code        anon$$obj.o
-    0x2000404c   0x0000000c   Ven    RO         1801    Veneer$$Code        anon$$obj.o
-    0x20004058   0x0000000c   Ven    RO         1802    Veneer$$Code        anon$$obj.o
-    0x20004064   0x0000000c   Ven    RO         1803    Veneer$$Code        anon$$obj.o
-    0x20004070   0x0000000c   Ven    RO         1804    Veneer$$Code        anon$$obj.o
-    0x2000407c   0x0000000c   Ven    RO         1805    Veneer$$Code        anon$$obj.o
-    0x20004088   0x0000000c   Ven    RO         1806    Veneer$$Code        anon$$obj.o
-    0x20004094   0x0000000c   Ven    RO         1807    Veneer$$Code        anon$$obj.o
-    0x200040a0   0x0000000c   Ven    RO         1808    Veneer$$Code        anon$$obj.o
-    0x200040ac   0x0000000c   Ven    RO         1809    Veneer$$Code        anon$$obj.o
-    0x200040b8   0x0000000c   Ven    RO         1810    Veneer$$Code        anon$$obj.o
-    0x200040c4   0x0000000c   Ven    RO         1811    Veneer$$Code        anon$$obj.o
-    0x200040d0   0x0000000c   Ven    RO         1812    Veneer$$Code        anon$$obj.o
-    0x200040dc   0x0000000c   Ven    RO         1813    Veneer$$Code        anon$$obj.o
-    0x200040e8   0x0000000c   Ven    RO         1814    Veneer$$Code        anon$$obj.o
-    0x200040f4   0x0000000c   Ven    RO         1815    Veneer$$Code        anon$$obj.o
-    0x20004100   0x0000000c   Ven    RO         1816    Veneer$$Code        anon$$obj.o
-    0x2000410c   0x0000000c   Ven    RO         1817    Veneer$$Code        anon$$obj.o
-    0x20004118   0x0000000c   Ven    RO         1818    Veneer$$Code        anon$$obj.o
-    0x20004124   0x0000000c   Ven    RO         1819    Veneer$$Code        anon$$obj.o
-    0x20004130   0x0000000c   Ven    RO         1820    Veneer$$Code        anon$$obj.o
-    0x2000413c   0x0000000c   Ven    RO         1821    Veneer$$Code        anon$$obj.o
-    0x20004148   0x0000000c   Ven    RO         1822    Veneer$$Code        anon$$obj.o
-    0x20004154   0x0000000c   Ven    RO         1823    Veneer$$Code        anon$$obj.o
-    0x20004160   0x0000000c   Ven    RO         1824    Veneer$$Code        anon$$obj.o
-    0x2000416c   0x0000000c   Ven    RO         1825    Veneer$$Code        anon$$obj.o
-    0x20004178   0x0000000c   Ven    RO         1826    Veneer$$Code        anon$$obj.o
-    0x20004184   0x0000000c   Ven    RO         1827    Veneer$$Code        anon$$obj.o
-    0x20004190   0x0000000c   Ven    RO         1828    Veneer$$Code        anon$$obj.o
-    0x2000419c   0x0000000c   Ven    RO         1829    Veneer$$Code        anon$$obj.o
-    0x200041a8   0x0000000c   Ven    RO         1830    Veneer$$Code        anon$$obj.o
-    0x200041b4   0x0000000c   Ven    RO         1831    Veneer$$Code        anon$$obj.o
-    0x200041c0   0x0000000c   Ven    RO         1832    Veneer$$Code        anon$$obj.o
-    0x200041cc   0x0000000c   Ven    RO         1833    Veneer$$Code        anon$$obj.o
-    0x200041d8   0x0000000c   Ven    RO         1834    Veneer$$Code        anon$$obj.o
-    0x200041e4   0x0000000c   Ven    RO         1835    Veneer$$Code        anon$$obj.o
-    0x200041f0   0x0000000c   Ven    RO         1836    Veneer$$Code        anon$$obj.o
-    0x200041fc   0x0000000c   Ven    RO         1837    Veneer$$Code        anon$$obj.o
-    0x20004208   0x0000000c   Ven    RO         1838    Veneer$$Code        anon$$obj.o
-    0x20004214   0x0000000c   Ven    RO         1839    Veneer$$Code        anon$$obj.o
-    0x20004220   0x0000000c   Ven    RO         1840    Veneer$$Code        anon$$obj.o
-    0x2000422c   0x0000000c   Ven    RO         1841    Veneer$$Code        anon$$obj.o
-    0x20004238   0x0000000c   Ven    RO         1842    Veneer$$Code        anon$$obj.o
-    0x20004244   0x0000000c   Ven    RO         1843    Veneer$$Code        anon$$obj.o
-    0x20004250   0x0000000c   Ven    RO         1844    Veneer$$Code        anon$$obj.o
-    0x2000425c   0x0000000c   Ven    RO         1845    Veneer$$Code        anon$$obj.o
-    0x20004268   0x0000000c   Ven    RO         1846    Veneer$$Code        anon$$obj.o
-    0x20004274   0x0000000c   Ven    RO         1847    Veneer$$Code        anon$$obj.o
-    0x20004280   0x0000000c   Ven    RO         1848    Veneer$$Code        anon$$obj.o
-    0x2000428c   0x0000000c   Ven    RO         1849    Veneer$$Code        anon$$obj.o
-    0x20004298   0x0000000c   Ven    RO         1850    Veneer$$Code        anon$$obj.o
-    0x200042a4   0x00000064   Code   RO          612    i.GPIO_ConfigurePin  gpio.o
-    0x20004308   0x00000064   Code   RO          606    i.GPIO_SetActive    gpio.o
-    0x2000436c   0x00000064   Code   RO          600    i.GPIO_SetInactive  gpio.o
-    0x200043d0   0x00000068   Code   RO          594    i.GPIO_SetPinFunction  gpio.o
-    0x20004438   0x000000d0   Code   RO          588    i.GPIO_init         gpio.o
-    0x20004508   0x0000000e   Code   RO         1745    i.__scatterload_copy  mc_p.l(handlers.o)
-    0x20004516   0x00000002   Code   RO         1746    i.__scatterload_null  mc_p.l(handlers.o)
-    0x20004518   0x0000000e   Code   RO         1747    i.__scatterload_zeroinit  mc_p.l(handlers.o)
-    0x20004526   0x00000002   PAD
-    0x20004528   0x00000036   Data   RO          113    .constdata          arch_main.o
-    0x2000455e   0x00000008   Data   RO          582    .constdata          gpio.o
-    0x20004566   0x00000002   PAD
-    0x20004568   0x000000d8   Data   RO         1479    .constdata          hpss.o
-    0x20004640   0x00000048   Data   RO         1502    .constdata          hpss_task.o
-    0x20004688   0x00000010   Data   RO         1534    .constdata          app.o
-    0x20004698   0x00000078   Data   RO         1604    .constdata          app_task.o
-    0x20004710   0x00000030   Data   RO         1743    Region$$Table       anon$$obj.o
-    0x20004740   0x0000001c   Data   RW          631    exchange_mem_case1  uart2.o
+    0x20000cec   0x000000e0   Code   RO          500    .text               periph_setup.o
+    0x20000dcc   0x000004b8   Code   RO          515    .text               arch_system.o
+    0x20001284   0x00000440   Code   RO          556    .text               rf_580.o
+    0x200016c4   0x000003b0   Code   RO          630    .text               uart2.o
+    0x20001a74   0x000000b8   Code   RO          659    .text               ke_task.obj
+    0x20001b2c   0x000000c4   Code   RO          661    .text               ch_map.obj
+    0x20001bf0   0x000000ec   Code   RO          712    .text               atts_task.obj
+    0x20001cdc   0x000000ec   Code   RO          716    .text               smpc.obj
+    0x20001dc8   0x0000020c   Code   RO          718    .text               smpc_task.obj
+    0x20001fd4   0x00000180   Code   RO          720    .text               gapm_util.obj
+    0x20002154   0x00000430   Code   RO          904    .text               nvds.o
+    0x20002584   0x00000234   Code   RO          921    .text               rwip.o
+    0x200027b8   0x00000210   Code   RO          940    .text               rwble.o
+    0x200029c8   0x000000ec   Code   RO         1219    .text               prf_utils.o
+    0x20002ab4   0x00000084   Code   RO         1478    .text               hpss.o
+    0x20002b38   0x00000498   Code   RO         1501    .text               hpss_task.o
+    0x20002fd0   0x00000164   Code   RO         1533    .text               app.o
+    0x20003134   0x00000180   Code   RO         1603    .text               app_task.o
+    0x200032b4   0x00000528   Code   RO         1632    .text               app_console.o
+    0x200037dc   0x00000214   Code   RO         1666    .text               app_hps_proj.o
+    0x200039f0   0x0000007c   Code   RO         1687    .text               app_hps.o
+    0x20003a6c   0x0000011c   Code   RO         1705    .text               app_hps_task.o
+    0x20003b88   0x00000012   Code   RO         1718    .text               mc_p.l(strcpy.o)
+    0x20003b9a   0x0000007a   Code   RO         1720    .text               mf_p.l(fmul.o)
+    0x20003c14   0x00000080   Code   RO         1722    .text               mf_p.l(fdiv.o)
+    0x20003c94   0x0000000e   Code   RO         1724    .text               mf_p.l(ffltui.o)
+    0x20003ca2   0x0000002a   Code   RO         1726    .text               mf_p.l(ffixui.o)
+    0x20003ccc   0x0000002e   Code   RO         1728    .text               mf_p.l(f2d.o)
+    0x20003cfa   0x00000038   Code   RO         1730    .text               mf_p.l(d2f.o)
+    0x20003d32   0x00000084   Code   RO         1739    .text               mf_p.l(fepilogue.o)
+    0x20003db6   0x00000002   PAD
+    0x20003db8   0x00000024   Code   RO         1741    .text               mc_p.l(init.o)
+    0x20003ddc   0x0000000c   Ven    RO         1751    Veneer$$Code        anon$$obj.o
+    0x20003de8   0x0000000c   Ven    RO         1752    Veneer$$Code        anon$$obj.o
+    0x20003df4   0x0000000c   Ven    RO         1753    Veneer$$Code        anon$$obj.o
+    0x20003e00   0x0000000c   Ven    RO         1754    Veneer$$Code        anon$$obj.o
+    0x20003e0c   0x0000000c   Ven    RO         1755    Veneer$$Code        anon$$obj.o
+    0x20003e18   0x0000000c   Ven    RO         1756    Veneer$$Code        anon$$obj.o
+    0x20003e24   0x0000000c   Ven    RO         1757    Veneer$$Code        anon$$obj.o
+    0x20003e30   0x0000000c   Ven    RO         1758    Veneer$$Code        anon$$obj.o
+    0x20003e3c   0x0000000c   Ven    RO         1759    Veneer$$Code        anon$$obj.o
+    0x20003e48   0x0000000c   Ven    RO         1760    Veneer$$Code        anon$$obj.o
+    0x20003e54   0x0000000c   Ven    RO         1761    Veneer$$Code        anon$$obj.o
+    0x20003e60   0x0000000c   Ven    RO         1762    Veneer$$Code        anon$$obj.o
+    0x20003e6c   0x0000000c   Ven    RO         1763    Veneer$$Code        anon$$obj.o
+    0x20003e78   0x0000000c   Ven    RO         1764    Veneer$$Code        anon$$obj.o
+    0x20003e84   0x0000000c   Ven    RO         1765    Veneer$$Code        anon$$obj.o
+    0x20003e90   0x0000000c   Ven    RO         1766    Veneer$$Code        anon$$obj.o
+    0x20003e9c   0x0000000c   Ven    RO         1767    Veneer$$Code        anon$$obj.o
+    0x20003ea8   0x0000000c   Ven    RO         1768    Veneer$$Code        anon$$obj.o
+    0x20003eb4   0x0000000c   Ven    RO         1769    Veneer$$Code        anon$$obj.o
+    0x20003ec0   0x0000000c   Ven    RO         1770    Veneer$$Code        anon$$obj.o
+    0x20003ecc   0x0000000c   Ven    RO         1771    Veneer$$Code        anon$$obj.o
+    0x20003ed8   0x0000000c   Ven    RO         1772    Veneer$$Code        anon$$obj.o
+    0x20003ee4   0x0000000c   Ven    RO         1773    Veneer$$Code        anon$$obj.o
+    0x20003ef0   0x0000000c   Ven    RO         1774    Veneer$$Code        anon$$obj.o
+    0x20003efc   0x0000000c   Ven    RO         1775    Veneer$$Code        anon$$obj.o
+    0x20003f08   0x0000000c   Ven    RO         1776    Veneer$$Code        anon$$obj.o
+    0x20003f14   0x0000000c   Ven    RO         1777    Veneer$$Code        anon$$obj.o
+    0x20003f20   0x0000000c   Ven    RO         1778    Veneer$$Code        anon$$obj.o
+    0x20003f2c   0x0000000c   Ven    RO         1779    Veneer$$Code        anon$$obj.o
+    0x20003f38   0x0000000c   Ven    RO         1780    Veneer$$Code        anon$$obj.o
+    0x20003f44   0x0000000c   Ven    RO         1781    Veneer$$Code        anon$$obj.o
+    0x20003f50   0x0000000c   Ven    RO         1782    Veneer$$Code        anon$$obj.o
+    0x20003f5c   0x0000000c   Ven    RO         1783    Veneer$$Code        anon$$obj.o
+    0x20003f68   0x0000000c   Ven    RO         1784    Veneer$$Code        anon$$obj.o
+    0x20003f74   0x0000000c   Ven    RO         1785    Veneer$$Code        anon$$obj.o
+    0x20003f80   0x0000000c   Ven    RO         1786    Veneer$$Code        anon$$obj.o
+    0x20003f8c   0x0000000c   Ven    RO         1787    Veneer$$Code        anon$$obj.o
+    0x20003f98   0x0000000c   Ven    RO         1788    Veneer$$Code        anon$$obj.o
+    0x20003fa4   0x0000000c   Ven    RO         1789    Veneer$$Code        anon$$obj.o
+    0x20003fb0   0x0000000c   Ven    RO         1790    Veneer$$Code        anon$$obj.o
+    0x20003fbc   0x0000000c   Ven    RO         1791    Veneer$$Code        anon$$obj.o
+    0x20003fc8   0x0000000c   Ven    RO         1792    Veneer$$Code        anon$$obj.o
+    0x20003fd4   0x0000000c   Ven    RO         1793    Veneer$$Code        anon$$obj.o
+    0x20003fe0   0x0000000c   Ven    RO         1794    Veneer$$Code        anon$$obj.o
+    0x20003fec   0x0000000c   Ven    RO         1795    Veneer$$Code        anon$$obj.o
+    0x20003ff8   0x0000000c   Ven    RO         1796    Veneer$$Code        anon$$obj.o
+    0x20004004   0x0000000c   Ven    RO         1797    Veneer$$Code        anon$$obj.o
+    0x20004010   0x0000000c   Ven    RO         1798    Veneer$$Code        anon$$obj.o
+    0x2000401c   0x0000000c   Ven    RO         1799    Veneer$$Code        anon$$obj.o
+    0x20004028   0x0000000c   Ven    RO         1800    Veneer$$Code        anon$$obj.o
+    0x20004034   0x0000000c   Ven    RO         1801    Veneer$$Code        anon$$obj.o
+    0x20004040   0x0000000c   Ven    RO         1802    Veneer$$Code        anon$$obj.o
+    0x2000404c   0x0000000c   Ven    RO         1803    Veneer$$Code        anon$$obj.o
+    0x20004058   0x0000000c   Ven    RO         1804    Veneer$$Code        anon$$obj.o
+    0x20004064   0x0000000c   Ven    RO         1805    Veneer$$Code        anon$$obj.o
+    0x20004070   0x0000000c   Ven    RO         1806    Veneer$$Code        anon$$obj.o
+    0x2000407c   0x0000000c   Ven    RO         1807    Veneer$$Code        anon$$obj.o
+    0x20004088   0x0000000c   Ven    RO         1808    Veneer$$Code        anon$$obj.o
+    0x20004094   0x0000000c   Ven    RO         1809    Veneer$$Code        anon$$obj.o
+    0x200040a0   0x0000000c   Ven    RO         1810    Veneer$$Code        anon$$obj.o
+    0x200040ac   0x0000000c   Ven    RO         1811    Veneer$$Code        anon$$obj.o
+    0x200040b8   0x0000000c   Ven    RO         1812    Veneer$$Code        anon$$obj.o
+    0x200040c4   0x0000000c   Ven    RO         1813    Veneer$$Code        anon$$obj.o
+    0x200040d0   0x0000000c   Ven    RO         1814    Veneer$$Code        anon$$obj.o
+    0x200040dc   0x0000000c   Ven    RO         1815    Veneer$$Code        anon$$obj.o
+    0x200040e8   0x0000000c   Ven    RO         1816    Veneer$$Code        anon$$obj.o
+    0x200040f4   0x0000000c   Ven    RO         1817    Veneer$$Code        anon$$obj.o
+    0x20004100   0x0000000c   Ven    RO         1818    Veneer$$Code        anon$$obj.o
+    0x2000410c   0x0000000c   Ven    RO         1819    Veneer$$Code        anon$$obj.o
+    0x20004118   0x0000000c   Ven    RO         1820    Veneer$$Code        anon$$obj.o
+    0x20004124   0x0000000c   Ven    RO         1821    Veneer$$Code        anon$$obj.o
+    0x20004130   0x0000000c   Ven    RO         1822    Veneer$$Code        anon$$obj.o
+    0x2000413c   0x0000000c   Ven    RO         1823    Veneer$$Code        anon$$obj.o
+    0x20004148   0x0000000c   Ven    RO         1824    Veneer$$Code        anon$$obj.o
+    0x20004154   0x0000000c   Ven    RO         1825    Veneer$$Code        anon$$obj.o
+    0x20004160   0x0000000c   Ven    RO         1826    Veneer$$Code        anon$$obj.o
+    0x2000416c   0x0000000c   Ven    RO         1827    Veneer$$Code        anon$$obj.o
+    0x20004178   0x0000000c   Ven    RO         1828    Veneer$$Code        anon$$obj.o
+    0x20004184   0x0000000c   Ven    RO         1829    Veneer$$Code        anon$$obj.o
+    0x20004190   0x0000000c   Ven    RO         1830    Veneer$$Code        anon$$obj.o
+    0x2000419c   0x0000000c   Ven    RO         1831    Veneer$$Code        anon$$obj.o
+    0x200041a8   0x0000000c   Ven    RO         1832    Veneer$$Code        anon$$obj.o
+    0x200041b4   0x0000000c   Ven    RO         1833    Veneer$$Code        anon$$obj.o
+    0x200041c0   0x0000000c   Ven    RO         1834    Veneer$$Code        anon$$obj.o
+    0x200041cc   0x0000000c   Ven    RO         1835    Veneer$$Code        anon$$obj.o
+    0x200041d8   0x0000000c   Ven    RO         1836    Veneer$$Code        anon$$obj.o
+    0x200041e4   0x0000000c   Ven    RO         1837    Veneer$$Code        anon$$obj.o
+    0x200041f0   0x0000000c   Ven    RO         1838    Veneer$$Code        anon$$obj.o
+    0x200041fc   0x0000000c   Ven    RO         1839    Veneer$$Code        anon$$obj.o
+    0x20004208   0x0000000c   Ven    RO         1840    Veneer$$Code        anon$$obj.o
+    0x20004214   0x0000000c   Ven    RO         1841    Veneer$$Code        anon$$obj.o
+    0x20004220   0x0000000c   Ven    RO         1842    Veneer$$Code        anon$$obj.o
+    0x2000422c   0x0000000c   Ven    RO         1843    Veneer$$Code        anon$$obj.o
+    0x20004238   0x0000000c   Ven    RO         1844    Veneer$$Code        anon$$obj.o
+    0x20004244   0x0000000c   Ven    RO         1845    Veneer$$Code        anon$$obj.o
+    0x20004250   0x0000000c   Ven    RO         1846    Veneer$$Code        anon$$obj.o
+    0x2000425c   0x0000000c   Ven    RO         1847    Veneer$$Code        anon$$obj.o
+    0x20004268   0x0000000c   Ven    RO         1848    Veneer$$Code        anon$$obj.o
+    0x20004274   0x0000000c   Ven    RO         1849    Veneer$$Code        anon$$obj.o
+    0x20004280   0x0000000c   Ven    RO         1850    Veneer$$Code        anon$$obj.o
+    0x2000428c   0x00000064   Code   RO          612    i.GPIO_ConfigurePin  gpio.o
+    0x200042f0   0x00000064   Code   RO          606    i.GPIO_SetActive    gpio.o
+    0x20004354   0x00000064   Code   RO          600    i.GPIO_SetInactive  gpio.o
+    0x200043b8   0x00000068   Code   RO          594    i.GPIO_SetPinFunction  gpio.o
+    0x20004420   0x000000d0   Code   RO          588    i.GPIO_init         gpio.o
+    0x200044f0   0x0000000e   Code   RO         1745    i.__scatterload_copy  mc_p.l(handlers.o)
+    0x200044fe   0x00000002   Code   RO         1746    i.__scatterload_null  mc_p.l(handlers.o)
+    0x20004500   0x0000000e   Code   RO         1747    i.__scatterload_zeroinit  mc_p.l(handlers.o)
+    0x2000450e   0x00000002   PAD
+    0x20004510   0x00000036   Data   RO          113    .constdata          arch_main.o
+    0x20004546   0x00000008   Data   RO          582    .constdata          gpio.o
+    0x2000454e   0x00000002   PAD
+    0x20004550   0x000000d8   Data   RO         1479    .constdata          hpss.o
+    0x20004628   0x00000048   Data   RO         1502    .constdata          hpss_task.o
+    0x20004670   0x00000010   Data   RO         1534    .constdata          app.o
+    0x20004680   0x00000078   Data   RO         1604    .constdata          app_task.o
+    0x200046f8   0x00000030   Data   RO         1743    Region$$Table       anon$$obj.o
+    0x20004728   0x0000001c   Data   RW          631    exchange_mem_case1  uart2.o
 
 
     Execution Region RW_IRAM50 (Base: 0x20008000, Size: 0x00000048, Max: 0x00000bf4, ABSOLUTE)
@@ -1781,40 +1781,40 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
 
-       356         20         16          0         12      15051   app.o
-      1322         66          0          0          5       9017   app_console.o
-       124         16          0          0          0       1934   app_hps.o
-       532         38          0          0          1       5753   app_hps_proj.o
-       284          8          0          0          0       4003   app_hps_task.o
-       384          8        120          0          1       6124   app_task.o
-      1348        184         54          0       1503     152319   arch_main.o
+       356         20         16          0         12      15039   app.o
+      1322         66          0          0          5       9005   app_console.o
+       124         16          0          0          0       1930   app_hps.o
+       532         38          0          0          1       5741   app_hps_proj.o
+       284          8          0          0          0       3995   app_hps_task.o
+       384          8        120          0          1       6116   app_task.o
+      1348        184         54          0       1503     152271   arch_main.o
        304         30          0          0          4       2258   arch_sleep.o
-      1208        120          0          0         20      82255   arch_system.o
+      1208        120          0          0         20      82243   arch_system.o
        236         18          0          0          0         72   atts_task.obj
        108         22        160          0       1536        724   boot_vectors.o
        196         12          0          0          0        108   ch_map.obj
-         0          0        100          0          0       2940   gapm.o
+         0          0        100          0          0       2932   gapm.o
        384         38          0          0          0      57941   gapm_util.obj
-       612         48          8          0        168       6141   gpio.o
-       124         12          0          0          0       2595   hardfault_handler.o
-       132         14        216          0         10       5391   hpss.o
-      1176         24         72          0          1       8265   hpss_task.o
-         2          0        352          0       3736       2876   jump_table.o
+       612         48          8          0        168       6125   gpio.o
+       124         12          0          0          0       2591   hardfault_handler.o
+       132         14        216          0         10       5379   hpss.o
+      1176         24         72          0          1       8245   hpss_task.o
+         2          0        352          0       3736       2864   jump_table.o
        184         18          0          0          0         96   ke_task.obj
-       202         26          0          0          0       8913   nmi_handler.o
-      1072         28        164          0          6       2791   nvds.o
-       248         12          0          0          0        874   periph_setup.o
-       236          4          0          0          0       6355   prf_utils.o
-      1088        282          0          0          0      65060   rf_580.o
-       528         54          0          0          1      63343   rwble.o
-       564         62          0          0          0      63310   rwip.o
+       202         26          0          0          0       8909   nmi_handler.o
+      1072         28        164          0          6       2787   nvds.o
+       224         16          0          0          0        870   periph_setup.o
+       236          4          0          0          0       6351   prf_utils.o
+      1088        282          0          0          0      65048   rf_580.o
+       528         54          0          0          1      63339   rwble.o
+       564         62          0          0          0      63298   rwip.o
        236          8          0          0          0        136   smpc.obj
        524          6          0          0          0         84   smpc_task.obj
-       104         26          0          0          0      99965   system_armcm0.o
-       944         24          0         28          0      20909   uart2.o
+       104         26          0          0          0      99953   system_armcm0.o
+       944         24          0         28          0      20897   uart2.o
 
     ----------------------------------------------------------------------
-     15968       1628       1312         28      13240     697603   Object Totals
+     15944       1632       1312         28      13240     697347   Object Totals
       1200        400         48          0         32          0   (incl. Generated)
          6          0          2          0       6204          0   (incl. Padding)
 
@@ -1859,15 +1859,15 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
 
-     16616       1644       1312         28      13240     696051   Grand Totals
-     16616       1644       1312         28      13240     696051   ELF Image Totals
-     16616       1644       1312         28          0          0   ROM Totals
+     16592       1648       1312         28      13240     695795   Grand Totals
+     16592       1648       1312         28      13240     695795   ELF Image Totals
+     16592       1648       1312         28          0          0   ROM Totals
 
 ==============================================================================
 
-    Total RO  Size (Code + RO Data)                17928 (  17.51kB)
+    Total RO  Size (Code + RO Data)                17904 (  17.48kB)
     Total RW  Size (RW Data + ZI Data)             13268 (  12.96kB)
-    Total ROM Size (Code + RO Data + RW Data)      17956 (  17.54kB)
+    Total ROM Size (Code + RO Data + RW Data)      17932 (  17.51kB)
 
 ==============================================================================
 

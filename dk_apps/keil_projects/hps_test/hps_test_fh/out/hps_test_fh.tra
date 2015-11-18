@@ -114,7 +114,7 @@
 ### ADS-LD Output File: '.\out\hps_test_fh.axf'
 ### ADS-LD Command File: '.\out\hps_test_fh.lnp'
 ### Checking for dirty Components...
-### Creating CmdFile '.\out\hps_test_fh.lnp', Handle=0x00001298
+### Creating CmdFile '.\out\hps_test_fh.lnp', Handle=0x00000590
 ### Writing '.lnp' file
 ### ADS-LD Command file '.\out\hps_test_fh.lnp' is ready.
 ### ADS-LD: About to start ADS-LD Thread.

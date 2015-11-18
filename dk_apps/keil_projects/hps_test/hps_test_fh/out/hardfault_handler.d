@@ -1,6 +1,6 @@
 .\out\hardfault_handler.o: ..\..\..\src\plf\refip\src\arch\main\ble\hardfault_handler.c
-.\out\hardfault_handler.o: E:\HGroup\Work\Ref\dialog\dialog\DA14580_SDK_3.0.4.0\dk_apps\keil_projects\hps_test\hps_test_fh\da14580_config.h
-.\out\hardfault_handler.o: E:\HGroup\Work\Ref\dialog\dialog\DA14580_SDK_3.0.4.0\dk_apps\keil_projects\hps_test\hps_test_fh\da14580_stack_config.h
+.\out\hardfault_handler.o: E:\HGroup\Work\Ref\dialog\dialog\DA14580_SDK_3_0_4\dk_apps\keil_projects\hps_test\hps_test_fh\da14580_config.h
+.\out\hardfault_handler.o: E:\HGroup\Work\Ref\dialog\dialog\DA14580_SDK_3_0_4\dk_apps\keil_projects\hps_test\hps_test_fh\da14580_stack_config.h
 .\out\hardfault_handler.o: .\..\..\..\src\dialog\include\global_io.h
 .\out\hardfault_handler.o: .\..\..\..\src\dialog\include\datasheet.h
 .\out\hardfault_handler.o: .\..\..\..\src\dialog\include\ARMCM0.h

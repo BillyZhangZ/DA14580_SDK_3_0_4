@@ -1,6 +1,6 @@
 .\out\system_armcm0.o: ..\..\..\src\plf\refip\src\arch\boot\rvds\system_ARMCM0.c
-.\out\system_armcm0.o: E:\HGroup\Work\Ref\dialog\dialog\DA14580_SDK_3.0.4.0\dk_apps\keil_projects\hps_test\hps_test_fh\da14580_config.h
-.\out\system_armcm0.o: E:\HGroup\Work\Ref\dialog\dialog\DA14580_SDK_3.0.4.0\dk_apps\keil_projects\hps_test\hps_test_fh\da14580_stack_config.h
+.\out\system_armcm0.o: E:\HGroup\Work\Ref\dialog\dialog\DA14580_SDK_3_0_4\dk_apps\keil_projects\hps_test\hps_test_fh\da14580_config.h
+.\out\system_armcm0.o: E:\HGroup\Work\Ref\dialog\dialog\DA14580_SDK_3_0_4\dk_apps\keil_projects\hps_test\hps_test_fh\da14580_stack_config.h
 .\out\system_armcm0.o: .\..\..\..\src\dialog\include\ARMCM0.h
 .\out\system_armcm0.o: .\..\..\..\src\dialog\include\global_io.h
 .\out\system_armcm0.o: .\..\..\..\src\dialog\include\datasheet.h

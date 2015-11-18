@@ -1,6 +1,6 @@
 .\out\nvds.o: ..\..\..\src\modules\nvds\src\nvds.c
-.\out\nvds.o: E:\HGroup\Work\Ref\dialog\dialog\DA14580_SDK_3.0.4.0\dk_apps\keil_projects\hps_test\hps_test_fh\da14580_config.h
-.\out\nvds.o: E:\HGroup\Work\Ref\dialog\dialog\DA14580_SDK_3.0.4.0\dk_apps\keil_projects\hps_test\hps_test_fh\da14580_stack_config.h
+.\out\nvds.o: E:\HGroup\Work\Ref\dialog\dialog\DA14580_SDK_3_0_4\dk_apps\keil_projects\hps_test\hps_test_fh\da14580_config.h
+.\out\nvds.o: E:\HGroup\Work\Ref\dialog\dialog\DA14580_SDK_3_0_4\dk_apps\keil_projects\hps_test\hps_test_fh\da14580_stack_config.h
 .\out\nvds.o: C:\Keil\ARM\RV31\INC\string.h
 .\out\nvds.o: C:\Keil\ARM\RV31\INC\stddef.h
 .\out\nvds.o: .\..\..\..\src\modules\nvds\api\nvds.h

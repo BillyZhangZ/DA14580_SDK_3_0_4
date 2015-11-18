@@ -1,6 +1,6 @@
 .\out\gpio.o: ..\..\..\src\plf\refip\src\driver\gpio\gpio.c
-.\out\gpio.o: E:\HGroup\Work\Ref\dialog\dialog\DA14580_SDK_3.0.4.0\dk_apps\keil_projects\hps_test\hps_test_fh\da14580_config.h
-.\out\gpio.o: E:\HGroup\Work\Ref\dialog\dialog\DA14580_SDK_3.0.4.0\dk_apps\keil_projects\hps_test\hps_test_fh\da14580_stack_config.h
+.\out\gpio.o: E:\HGroup\Work\Ref\dialog\dialog\DA14580_SDK_3_0_4\dk_apps\keil_projects\hps_test\hps_test_fh\da14580_config.h
+.\out\gpio.o: E:\HGroup\Work\Ref\dialog\dialog\DA14580_SDK_3_0_4\dk_apps\keil_projects\hps_test\hps_test_fh\da14580_stack_config.h
 .\out\gpio.o: .\..\..\..\src\plf\refip\src\arch\arch.h
 .\out\gpio.o: C:\Keil\ARM\RV31\INC\stdint.h
 .\out\gpio.o: .\..\..\..\src\plf\refip\src\arch\compiler\rvds\compiler.h

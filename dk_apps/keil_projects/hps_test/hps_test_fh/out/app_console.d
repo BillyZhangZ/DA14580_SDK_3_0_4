@@ -1,6 +1,6 @@
 .\out\app_console.o: ..\..\..\src\modules\app\src\app_utils\app_console\app_console.c
-.\out\app_console.o: E:\HGroup\Work\Ref\dialog\dialog\DA14580_SDK_3.0.4.0\dk_apps\keil_projects\hps_test\hps_test_fh\da14580_config.h
-.\out\app_console.o: E:\HGroup\Work\Ref\dialog\dialog\DA14580_SDK_3.0.4.0\dk_apps\keil_projects\hps_test\hps_test_fh\da14580_stack_config.h
+.\out\app_console.o: E:\HGroup\Work\Ref\dialog\dialog\DA14580_SDK_3_0_4\dk_apps\keil_projects\hps_test\hps_test_fh\da14580_config.h
+.\out\app_console.o: E:\HGroup\Work\Ref\dialog\dialog\DA14580_SDK_3_0_4\dk_apps\keil_projects\hps_test\hps_test_fh\da14580_stack_config.h
 .\out\app_console.o: C:\Keil\ARM\RV31\INC\stdlib.h
 .\out\app_console.o: .\..\..\..\src\modules\app\api\app.h
 .\out\app_console.o: .\..\..\..\src\modules\rwip\api\rwip_config.h

@@ -1,6 +1,6 @@
 .\out\proxr.o: ..\..\..\src\ip\ble\hl\src\profiles\prox\proxr\proxr.c
-.\out\proxr.o: E:\HGroup\Work\Ref\dialog\dialog\DA14580_SDK_3.0.4.0\dk_apps\keil_projects\hps_test\hps_test_fh\da14580_config.h
-.\out\proxr.o: E:\HGroup\Work\Ref\dialog\dialog\DA14580_SDK_3.0.4.0\dk_apps\keil_projects\hps_test\hps_test_fh\da14580_stack_config.h
+.\out\proxr.o: E:\HGroup\Work\Ref\dialog\dialog\DA14580_SDK_3_0_4\dk_apps\keil_projects\hps_test\hps_test_fh\da14580_config.h
+.\out\proxr.o: E:\HGroup\Work\Ref\dialog\dialog\DA14580_SDK_3_0_4\dk_apps\keil_projects\hps_test\hps_test_fh\da14580_stack_config.h
 .\out\proxr.o: .\..\..\..\src\modules\rwip\api\rwip_config.h
 .\out\proxr.o: .\..\..\..\src\ip\ble\ll\src\rwble\rwble_config.h
 .\out\proxr.o: .\..\..\..\src\modules\rwip\api\rwip_config.h

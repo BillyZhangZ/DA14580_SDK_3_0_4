@@ -3,7 +3,7 @@
 <title>Static Call Graph - [.\out\hps_test_fh.axf]</title></head>
 <body><HR>
 <H1>Static Call Graph for image .\out\hps_test_fh.axf</H1><HR>
-<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 4.1 [Build 791]: Last Updated: Wed Nov 18 12:50:04 2015
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 4.1 [Build 791]: Last Updated: Wed Nov 18 14:45:44 2015
 <BR><P>
 <H3>Maximum Stack Usage =        512 bytes + Unknown(Cycles, Untraceable Function Pointers)</H3><H3>
 Call chain for Maximum Stack Depth:</H3>
@@ -999,15 +999,15 @@ Global Symbols
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> boot_vectors.o(.text)
 </UL>
-<P><STRONG><a name="[a3]"></a>GPIO_reservations</STRONG> (Thumb, 124 bytes, Stack size 24 bytes, periph_setup.o(.text))
-<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = GPIO_reservations
+<P><STRONG><a name="[a3]"></a>GPIO_reservations</STRONG> (Thumb, 100 bytes, Stack size 16 bytes, periph_setup.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = GPIO_reservations
 </UL>
 <BR>[Calls]<UL><LI><a href="#[a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_llsl (via Veneer)
 </UL>
 <BR>[Called By]<UL><LI><a href="#[87]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_init
 </UL>
 
-<P><STRONG><a name="[a5]"></a>set_pad_functions</STRONG> (Thumb, 38 bytes, Stack size 8 bytes, periph_setup.o(.text))
+<P><STRONG><a name="[a5]"></a>set_pad_functions</STRONG> (Thumb, 34 bytes, Stack size 8 bytes, periph_setup.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 112<LI>Call Chain = set_pad_functions &rArr; GPIO_ConfigurePin &rArr; GPIO_SetPinFunction
 </UL>
 <BR>[Calls]<UL><LI><a href="#[a6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_ConfigurePin
@@ -1973,7 +1973,7 @@ Global Symbols
 </UL>
 
 <P><STRONG><a name="[87]"></a>GPIO_init</STRONG> (Thumb, 194 bytes, Stack size 40 bytes, gpio.o(i.GPIO_init))
-<BR><BR>[Stack]<UL><LI>Max Depth = 64<LI>Call Chain = GPIO_init &rArr; GPIO_reservations
+<BR><BR>[Stack]<UL><LI>Max Depth = 56<LI>Call Chain = GPIO_init &rArr; GPIO_reservations
 </UL>
 <BR>[Calls]<UL><LI><a href="#[a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_llsl (via Veneer)
 <LI><a href="#[a3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_reservations

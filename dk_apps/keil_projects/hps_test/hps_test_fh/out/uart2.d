@@ -1,6 +1,6 @@
 .\out\uart2.o: ..\..\..\src\plf\refip\src\driver\uart\uart2.c
-.\out\uart2.o: E:\HGroup\Work\Ref\dialog\dialog\DA14580_SDK_3.0.4.0\dk_apps\keil_projects\hps_test\hps_test_fh\da14580_config.h
-.\out\uart2.o: E:\HGroup\Work\Ref\dialog\dialog\DA14580_SDK_3.0.4.0\dk_apps\keil_projects\hps_test\hps_test_fh\da14580_stack_config.h
+.\out\uart2.o: E:\HGroup\Work\Ref\dialog\dialog\DA14580_SDK_3_0_4\dk_apps\keil_projects\hps_test\hps_test_fh\da14580_config.h
+.\out\uart2.o: E:\HGroup\Work\Ref\dialog\dialog\DA14580_SDK_3_0_4\dk_apps\keil_projects\hps_test\hps_test_fh\da14580_stack_config.h
 .\out\uart2.o: C:\Keil\ARM\RV31\INC\stddef.h
 .\out\uart2.o: .\..\..\..\src\plf\refip\src\driver\timer\timer.h
 .\out\uart2.o: C:\Keil\ARM\RV31\INC\stdint.h

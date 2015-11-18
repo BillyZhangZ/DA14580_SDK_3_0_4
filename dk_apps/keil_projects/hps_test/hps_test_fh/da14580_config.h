@@ -27,7 +27,7 @@
 
 /////////////////////////////////////////////////////////////
 /*UART Console Print*/
-#undef CFG_PRINTF
+//#undef CFG_PRINTF
 #define CFG_PRINTF
 #ifdef CFG_PRINTF
 	#define CFG_PRINTF_UART2

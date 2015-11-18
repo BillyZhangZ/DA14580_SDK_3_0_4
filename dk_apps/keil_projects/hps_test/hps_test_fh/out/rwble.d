@@ -1,6 +1,6 @@
 .\out\rwble.o: ..\..\..\src\ip\ble\ll\src\rwble\rwble.c
-.\out\rwble.o: E:\HGroup\Work\Ref\dialog\dialog\DA14580_SDK_3.0.4.0\dk_apps\keil_projects\hps_test\hps_test_fh\da14580_config.h
-.\out\rwble.o: E:\HGroup\Work\Ref\dialog\dialog\DA14580_SDK_3.0.4.0\dk_apps\keil_projects\hps_test\hps_test_fh\da14580_stack_config.h
+.\out\rwble.o: E:\HGroup\Work\Ref\dialog\dialog\DA14580_SDK_3_0_4\dk_apps\keil_projects\hps_test\hps_test_fh\da14580_config.h
+.\out\rwble.o: E:\HGroup\Work\Ref\dialog\dialog\DA14580_SDK_3_0_4\dk_apps\keil_projects\hps_test\hps_test_fh\da14580_stack_config.h
 .\out\rwble.o: C:\Keil\ARM\RV31\INC\string.h
 .\out\rwble.o: .\..\..\..\src\modules\common\api\co_version.h
 .\out\rwble.o: .\..\..\..\src\modules\rwip\api\rwip_config.h
