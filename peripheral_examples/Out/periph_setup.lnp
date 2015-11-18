@@ -1,0 +1,24 @@
+--cpu Cortex-M0
+".\out\startup_cmsdk_cm0.o"
+".\out\system_cmsdk.o"
+".\out\peripherals.o"
+".\out\i2c_eeprom.o"
+".\out\spi.o"
+".\out\spi_flash.o"
+".\out\adc.o"
+".\out\eeprom_test.o"
+".\out\gpio.o"
+".\out\spi_test.o"
+".\out\uart.o"
+".\out\battery.o"
+".\out\da14580_examples.o"
+".\out\quad_decoder_test.o"
+".\out\wkupct_quadec.o"
+".\out\pwm_test.o"
+".\out\pwm.o"
+".\out\per_ex_hard_fault.o"
+".\out\sw_cursor.o"
+--strict --scatter ".\Out\periph_setup.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Out\periph_setup.map" -o .\Out\periph_setup.axf

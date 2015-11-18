@@ -1,0 +1,352 @@
+Dependencies for Project 'DA14580_peripheral_setup', Target 'Cortex-M0 SDK - Simulator': (DO NOT MODIFY !)
+F (.\startup\startup_CMSDK_CM0.s)(0x53C91F74)(--cpu Cortex-M0 --li -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ARM--list .\out\startup_cmsdk_cm0.lst --xref -o .\out\startup_cmsdk_cm0.o --depend .\out\startup_cmsdk_cm0.d)
+F (.\startup\system_CMSDK.c)(0x53C91F74)(-c --cpu Cortex-M0 --li -g -O0 --apcs=interwork -I.\..\dk_apps\src\plf\refip\src\driver\i2c_eeprom -I.\..\dk_apps\src\plf\refip\src\driver\spi -I.\..\dk_apps\src\plf\refip\src\arch -I.\..\dk_apps\src\plf\refip\src\arch\compiler\rvds -I.\..\dk_apps\src\plf\refip\src\arch\ll\rvds -I.\..\dk_apps\src\plf\refip\src\driver\reg -I.\..\dk_apps\src\dialog\include -I.\include -I.\..\dk_apps\src\plf\refip\src\driver\gpio -I.\..\dk_apps\src\plf\refip\src\driver\adc -I.\..\dk_apps\src\plf\refip\src\driver\battery -I.\..\dk_apps\src\plf\refip\src\driver\spi_flash -I.\..\dk_apps\src\modules\app\api -I.\..\dk_apps\src\ip\ble\hl\src\rwble_hl -I..\dk_apps\src\plf\refip\src\driver\wkupct_quadec -I..\dk_apps\src\plf\refip\src\driver\pwm --c99 --thumb -c-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ARM-o .\out\system_cmsdk.o --omf_browse .\out\system_cmsdk.crf --depend .\out\system_cmsdk.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+F (.\src\peripherals.c)(0x53C91F74)(-c --cpu Cortex-M0 --li -g -O0 --apcs=interwork -I.\..\dk_apps\src\plf\refip\src\driver\i2c_eeprom -I.\..\dk_apps\src\plf\refip\src\driver\spi -I.\..\dk_apps\src\plf\refip\src\arch -I.\..\dk_apps\src\plf\refip\src\arch\compiler\rvds -I.\..\dk_apps\src\plf\refip\src\arch\ll\rvds -I.\..\dk_apps\src\plf\refip\src\driver\reg -I.\..\dk_apps\src\dialog\include -I.\include -I.\..\dk_apps\src\plf\refip\src\driver\gpio -I.\..\dk_apps\src\plf\refip\src\driver\adc -I.\..\dk_apps\src\plf\refip\src\driver\battery -I.\..\dk_apps\src\plf\refip\src\driver\spi_flash -I.\..\dk_apps\src\modules\app\api -I.\..\dk_apps\src\ip\ble\hl\src\rwble_hl -I..\dk_apps\src\plf\refip\src\driver\wkupct_quadec -I..\dk_apps\src\plf\refip\src\driver\pwm --c99 --thumb -c-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ARM-o .\out\peripherals.o --omf_browse .\out\peripherals.crf --depend .\out\peripherals.d)
+I (.\..\dk_apps\src\dialog\include\global_io.h)(0x53C91F72)
+I (.\..\dk_apps\src\dialog\include\datasheet.h)(0x53C91F72)
+I (.\include\uart.h)(0x53C91F74)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (.\..\dk_apps\src\plf\refip\src\driver\gpio\gpio.h)(0x53C91F74)
+I (.\..\dk_apps\src\plf\refip\src\arch\arch.h)(0x53C91F74)
+I (.\..\dk_apps\src\plf\refip\src\arch\compiler\rvds\compiler.h)(0x53C91F74)
+I (C:\Keil\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (.\..\dk_apps\src\plf\refip\src\arch\ll\rvds\ll.h)(0x53C91F74)
+I (.\..\dk_apps\src\dialog\include\reg_intc.h)(0x53C91F72)
+I (.\..\dk_apps\src\dialog\include\_reg_intc.h)(0x53C91F72)
+I (.\..\dk_apps\src\plf\refip\src\driver\reg\reg_access.h)(0x53C91F74)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (.\..\dk_apps\src\dialog\include\ARMCM0.h)(0x53C91F72)
+I (.\..\dk_apps\src\dialog\include\core_cm0.h)(0x53C91F72)
+I (.\..\dk_apps\src\dialog\include\core_cmInstr.h)(0x53C91F72)
+I (.\..\dk_apps\src\dialog\include\core_cmFunc.h)(0x53C91F72)
+I (.\..\dk_apps\src\dialog\include\system_ARMCM0.h)(0x53C91F72)
+I (.\include\peripherals.h)(0x53C91F74)
+I (.\include\periph_setup.h)(0x53C91F74)
+I (.\..\dk_apps\src\plf\refip\src\driver\i2c_eeprom\i2c_eeprom.h)(0x53C91F74)
+I (.\..\dk_apps\src\plf\refip\src\driver\spi\spi.h)(0x53C91F74)
+F (..\dk_apps\src\plf\refip\src\driver\i2c_eeprom\i2c_eeprom.c)(0x53C91F74)(-c --cpu Cortex-M0 --li -g -O0 --apcs=interwork -I.\..\dk_apps\src\plf\refip\src\driver\i2c_eeprom -I.\..\dk_apps\src\plf\refip\src\driver\spi -I.\..\dk_apps\src\plf\refip\src\arch -I.\..\dk_apps\src\plf\refip\src\arch\compiler\rvds -I.\..\dk_apps\src\plf\refip\src\arch\ll\rvds -I.\..\dk_apps\src\plf\refip\src\driver\reg -I.\..\dk_apps\src\dialog\include -I.\include -I.\..\dk_apps\src\plf\refip\src\driver\gpio -I.\..\dk_apps\src\plf\refip\src\driver\adc -I.\..\dk_apps\src\plf\refip\src\driver\battery -I.\..\dk_apps\src\plf\refip\src\driver\spi_flash -I.\..\dk_apps\src\modules\app\api -I.\..\dk_apps\src\ip\ble\hl\src\rwble_hl -I..\dk_apps\src\plf\refip\src\driver\wkupct_quadec -I..\dk_apps\src\plf\refip\src\driver\pwm --c99 --thumb -c-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ARM-o .\out\i2c_eeprom.o --omf_browse .\out\i2c_eeprom.crf --depend .\out\i2c_eeprom.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (.\..\dk_apps\src\dialog\include\global_io.h)(0x53C91F72)
+I (.\..\dk_apps\src\dialog\include\datasheet.h)(0x53C91F72)
+I (.\..\dk_apps\src\plf\refip\src\driver\gpio\gpio.h)(0x53C91F74)
+I (.\..\dk_apps\src\plf\refip\src\arch\arch.h)(0x53C91F74)
+I (.\..\dk_apps\src\plf\refip\src\arch\compiler\rvds\compiler.h)(0x53C91F74)
+I (C:\Keil\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (.\..\dk_apps\src\plf\refip\src\arch\ll\rvds\ll.h)(0x53C91F74)
+I (.\..\dk_apps\src\dialog\include\reg_intc.h)(0x53C91F72)
+I (.\..\dk_apps\src\dialog\include\_reg_intc.h)(0x53C91F72)
+I (.\..\dk_apps\src\plf\refip\src\driver\reg\reg_access.h)(0x53C91F74)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (.\..\dk_apps\src\dialog\include\ARMCM0.h)(0x53C91F72)
+I (.\..\dk_apps\src\dialog\include\core_cm0.h)(0x53C91F72)
+I (.\..\dk_apps\src\dialog\include\core_cmInstr.h)(0x53C91F72)
+I (.\..\dk_apps\src\dialog\include\core_cmFunc.h)(0x53C91F72)
+I (.\..\dk_apps\src\dialog\include\system_ARMCM0.h)(0x53C91F72)
+I (.\include\periph_setup.h)(0x53C91F74)
+I (.\..\dk_apps\src\plf\refip\src\driver\i2c_eeprom\i2c_eeprom.h)(0x53C91F74)
+I (.\..\dk_apps\src\plf\refip\src\driver\spi\spi.h)(0x53C91F74)
+F (..\dk_apps\src\plf\refip\src\driver\spi\spi.c)(0x53C91F74)(-c --cpu Cortex-M0 --li -g -O0 --apcs=interwork -I.\..\dk_apps\src\plf\refip\src\driver\i2c_eeprom -I.\..\dk_apps\src\plf\refip\src\driver\spi -I.\..\dk_apps\src\plf\refip\src\arch -I.\..\dk_apps\src\plf\refip\src\arch\compiler\rvds -I.\..\dk_apps\src\plf\refip\src\arch\ll\rvds -I.\..\dk_apps\src\plf\refip\src\driver\reg -I.\..\dk_apps\src\dialog\include -I.\include -I.\..\dk_apps\src\plf\refip\src\driver\gpio -I.\..\dk_apps\src\plf\refip\src\driver\adc -I.\..\dk_apps\src\plf\refip\src\driver\battery -I.\..\dk_apps\src\plf\refip\src\driver\spi_flash -I.\..\dk_apps\src\modules\app\api -I.\..\dk_apps\src\ip\ble\hl\src\rwble_hl -I..\dk_apps\src\plf\refip\src\driver\wkupct_quadec -I..\dk_apps\src\plf\refip\src\driver\pwm --c99 --thumb -c-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ARM-o .\out\spi.o --omf_browse .\out\spi.crf --depend .\out\spi.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (.\..\dk_apps\src\dialog\include\global_io.h)(0x53C91F72)
+I (.\..\dk_apps\src\dialog\include\datasheet.h)(0x53C91F72)
+I (..\dk_apps\src\plf\refip\src\driver\spi\spi.h)(0x53C91F74)
+I (.\..\dk_apps\src\plf\refip\src\driver\gpio\gpio.h)(0x53C91F74)
+I (.\..\dk_apps\src\plf\refip\src\arch\arch.h)(0x53C91F74)
+I (.\..\dk_apps\src\plf\refip\src\arch\compiler\rvds\compiler.h)(0x53C91F74)
+I (C:\Keil\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (.\..\dk_apps\src\plf\refip\src\arch\ll\rvds\ll.h)(0x53C91F74)
+I (.\..\dk_apps\src\dialog\include\reg_intc.h)(0x53C91F72)
+I (.\..\dk_apps\src\dialog\include\_reg_intc.h)(0x53C91F72)
+I (.\..\dk_apps\src\plf\refip\src\driver\reg\reg_access.h)(0x53C91F74)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (.\..\dk_apps\src\dialog\include\ARMCM0.h)(0x53C91F72)
+I (.\..\dk_apps\src\dialog\include\core_cm0.h)(0x53C91F72)
+I (.\..\dk_apps\src\dialog\include\core_cmInstr.h)(0x53C91F72)
+I (.\..\dk_apps\src\dialog\include\core_cmFunc.h)(0x53C91F72)
+I (.\..\dk_apps\src\dialog\include\system_ARMCM0.h)(0x53C91F72)
+F (..\dk_apps\src\plf\refip\src\driver\spi_flash\spi_flash.c)(0x53C91F74)(-c --cpu Cortex-M0 --li -g -O0 --apcs=interwork -I.\..\dk_apps\src\plf\refip\src\driver\i2c_eeprom -I.\..\dk_apps\src\plf\refip\src\driver\spi -I.\..\dk_apps\src\plf\refip\src\arch -I.\..\dk_apps\src\plf\refip\src\arch\compiler\rvds -I.\..\dk_apps\src\plf\refip\src\arch\ll\rvds -I.\..\dk_apps\src\plf\refip\src\driver\reg -I.\..\dk_apps\src\dialog\include -I.\include -I.\..\dk_apps\src\plf\refip\src\driver\gpio -I.\..\dk_apps\src\plf\refip\src\driver\adc -I.\..\dk_apps\src\plf\refip\src\driver\battery -I.\..\dk_apps\src\plf\refip\src\driver\spi_flash -I.\..\dk_apps\src\modules\app\api -I.\..\dk_apps\src\ip\ble\hl\src\rwble_hl -I..\dk_apps\src\plf\refip\src\driver\wkupct_quadec -I..\dk_apps\src\plf\refip\src\driver\pwm --c99 --thumb -c-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ARM-o .\out\spi_flash.o --omf_browse .\out\spi_flash.crf --depend .\out\spi_flash.d)
+I (..\dk_apps\src\plf\refip\src\driver\spi_flash\spi_flash.h)(0x53C91F74)
+I (.\..\dk_apps\src\plf\refip\src\driver\spi\spi.h)(0x53C91F74)
+I (.\..\dk_apps\src\plf\refip\src\driver\gpio\gpio.h)(0x53C91F74)
+I (.\..\dk_apps\src\plf\refip\src\arch\arch.h)(0x53C91F74)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (.\..\dk_apps\src\plf\refip\src\arch\compiler\rvds\compiler.h)(0x53C91F74)
+I (C:\Keil\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (.\..\dk_apps\src\plf\refip\src\arch\ll\rvds\ll.h)(0x53C91F74)
+I (.\..\dk_apps\src\dialog\include\reg_intc.h)(0x53C91F72)
+I (.\..\dk_apps\src\dialog\include\_reg_intc.h)(0x53C91F72)
+I (.\..\dk_apps\src\plf\refip\src\driver\reg\reg_access.h)(0x53C91F74)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (.\..\dk_apps\src\dialog\include\ARMCM0.h)(0x53C91F72)
+I (.\..\dk_apps\src\dialog\include\global_io.h)(0x53C91F72)
+I (.\..\dk_apps\src\dialog\include\datasheet.h)(0x53C91F72)
+I (.\..\dk_apps\src\dialog\include\core_cm0.h)(0x53C91F72)
+I (.\..\dk_apps\src\dialog\include\core_cmInstr.h)(0x53C91F72)
+I (.\..\dk_apps\src\dialog\include\core_cmFunc.h)(0x53C91F72)
+I (.\..\dk_apps\src\dialog\include\system_ARMCM0.h)(0x53C91F72)
+F (..\dk_apps\src\plf\refip\src\driver\adc\adc.c)(0x53C91F74)(-c --cpu Cortex-M0 --li -g -O0 --apcs=interwork -I.\..\dk_apps\src\plf\refip\src\driver\i2c_eeprom -I.\..\dk_apps\src\plf\refip\src\driver\spi -I.\..\dk_apps\src\plf\refip\src\arch -I.\..\dk_apps\src\plf\refip\src\arch\compiler\rvds -I.\..\dk_apps\src\plf\refip\src\arch\ll\rvds -I.\..\dk_apps\src\plf\refip\src\driver\reg -I.\..\dk_apps\src\dialog\include -I.\include -I.\..\dk_apps\src\plf\refip\src\driver\gpio -I.\..\dk_apps\src\plf\refip\src\driver\adc -I.\..\dk_apps\src\plf\refip\src\driver\battery -I.\..\dk_apps\src\plf\refip\src\driver\spi_flash -I.\..\dk_apps\src\modules\app\api -I.\..\dk_apps\src\ip\ble\hl\src\rwble_hl -I..\dk_apps\src\plf\refip\src\driver\wkupct_quadec -I..\dk_apps\src\plf\refip\src\driver\pwm --c99 --thumb -c-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ARM-o .\out\adc.o --omf_browse .\out\adc.crf --depend .\out\adc.d)
+I (..\dk_apps\src\plf\refip\src\driver\adc\adc.h)(0x53C91F74)
+I (.\..\dk_apps\src\dialog\include\global_io.h)(0x53C91F72)
+I (.\..\dk_apps\src\dialog\include\datasheet.h)(0x53C91F72)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+F (.\src\eeprom_test.c)(0x53C91F74)(-c --cpu Cortex-M0 --li -g -O0 --apcs=interwork -I.\..\dk_apps\src\plf\refip\src\driver\i2c_eeprom -I.\..\dk_apps\src\plf\refip\src\driver\spi -I.\..\dk_apps\src\plf\refip\src\arch -I.\..\dk_apps\src\plf\refip\src\arch\compiler\rvds -I.\..\dk_apps\src\plf\refip\src\arch\ll\rvds -I.\..\dk_apps\src\plf\refip\src\driver\reg -I.\..\dk_apps\src\dialog\include -I.\include -I.\..\dk_apps\src\plf\refip\src\driver\gpio -I.\..\dk_apps\src\plf\refip\src\driver\adc -I.\..\dk_apps\src\plf\refip\src\driver\battery -I.\..\dk_apps\src\plf\refip\src\driver\spi_flash -I.\..\dk_apps\src\modules\app\api -I.\..\dk_apps\src\ip\ble\hl\src\rwble_hl -I..\dk_apps\src\plf\refip\src\driver\wkupct_quadec -I..\dk_apps\src\plf\refip\src\driver\pwm --c99 --thumb -c-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ARM-o .\out\eeprom_test.o --omf_browse .\out\eeprom_test.crf --depend .\out\eeprom_test.d)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+I (.\..\dk_apps\src\dialog\include\global_io.h)(0x53C91F72)
+I (.\..\dk_apps\src\dialog\include\datasheet.h)(0x53C91F72)
+I (.\include\periph_setup.h)(0x53C91F74)
+I (.\..\dk_apps\src\plf\refip\src\driver\gpio\gpio.h)(0x53C91F74)
+I (.\..\dk_apps\src\plf\refip\src\arch\arch.h)(0x53C91F74)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (.\..\dk_apps\src\plf\refip\src\arch\compiler\rvds\compiler.h)(0x53C91F74)
+I (C:\Keil\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (.\..\dk_apps\src\plf\refip\src\arch\ll\rvds\ll.h)(0x53C91F74)
+I (.\..\dk_apps\src\dialog\include\reg_intc.h)(0x53C91F72)
+I (.\..\dk_apps\src\dialog\include\_reg_intc.h)(0x53C91F72)
+I (.\..\dk_apps\src\plf\refip\src\driver\reg\reg_access.h)(0x53C91F74)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (.\..\dk_apps\src\dialog\include\ARMCM0.h)(0x53C91F72)
+I (.\..\dk_apps\src\dialog\include\core_cm0.h)(0x53C91F72)
+I (.\..\dk_apps\src\dialog\include\core_cmInstr.h)(0x53C91F72)
+I (.\..\dk_apps\src\dialog\include\core_cmFunc.h)(0x53C91F72)
+I (.\..\dk_apps\src\dialog\include\system_ARMCM0.h)(0x53C91F72)
+I (.\..\dk_apps\src\plf\refip\src\driver\i2c_eeprom\i2c_eeprom.h)(0x53C91F74)
+I (.\..\dk_apps\src\plf\refip\src\driver\spi\spi.h)(0x53C91F74)
+I (.\include\peripherals.h)(0x53C91F74)
+I (.\include\uart.h)(0x53C91F74)
+F (..\dk_apps\src\plf\refip\src\driver\gpio\gpio.c)(0x53C91F74)(-c --cpu Cortex-M0 --li -g -O0 --apcs=interwork -I.\..\dk_apps\src\plf\refip\src\driver\i2c_eeprom -I.\..\dk_apps\src\plf\refip\src\driver\spi -I.\..\dk_apps\src\plf\refip\src\arch -I.\..\dk_apps\src\plf\refip\src\arch\compiler\rvds -I.\..\dk_apps\src\plf\refip\src\arch\ll\rvds -I.\..\dk_apps\src\plf\refip\src\driver\reg -I.\..\dk_apps\src\dialog\include -I.\include -I.\..\dk_apps\src\plf\refip\src\driver\gpio -I.\..\dk_apps\src\plf\refip\src\driver\adc -I.\..\dk_apps\src\plf\refip\src\driver\battery -I.\..\dk_apps\src\plf\refip\src\driver\spi_flash -I.\..\dk_apps\src\modules\app\api -I.\..\dk_apps\src\ip\ble\hl\src\rwble_hl -I..\dk_apps\src\plf\refip\src\driver\wkupct_quadec -I..\dk_apps\src\plf\refip\src\driver\pwm --c99 --thumb -c-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ARM-o .\out\gpio.o --omf_browse .\out\gpio.crf --depend .\out\gpio.d)
+I (.\..\dk_apps\src\plf\refip\src\arch\arch.h)(0x53C91F74)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (.\..\dk_apps\src\plf\refip\src\arch\compiler\rvds\compiler.h)(0x53C91F74)
+I (C:\Keil\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (.\..\dk_apps\src\plf\refip\src\arch\ll\rvds\ll.h)(0x53C91F74)
+I (.\..\dk_apps\src\dialog\include\reg_intc.h)(0x53C91F72)
+I (.\..\dk_apps\src\dialog\include\_reg_intc.h)(0x53C91F72)
+I (.\..\dk_apps\src\plf\refip\src\driver\reg\reg_access.h)(0x53C91F74)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (.\..\dk_apps\src\dialog\include\ARMCM0.h)(0x53C91F72)
+I (.\..\dk_apps\src\dialog\include\global_io.h)(0x53C91F72)
+I (.\..\dk_apps\src\dialog\include\datasheet.h)(0x53C91F72)
+I (.\..\dk_apps\src\dialog\include\core_cm0.h)(0x53C91F72)
+I (.\..\dk_apps\src\dialog\include\core_cmInstr.h)(0x53C91F72)
+I (.\..\dk_apps\src\dialog\include\core_cmFunc.h)(0x53C91F72)
+I (.\..\dk_apps\src\dialog\include\system_ARMCM0.h)(0x53C91F72)
+I (..\dk_apps\src\plf\refip\src\driver\gpio\gpio.h)(0x53C91F74)
+I (.\include\periph_setup.h)(0x53C91F74)
+I (.\..\dk_apps\src\plf\refip\src\driver\i2c_eeprom\i2c_eeprom.h)(0x53C91F74)
+I (.\..\dk_apps\src\plf\refip\src\driver\spi\spi.h)(0x53C91F74)
+F (.\src\spi_test.c)(0x53C91F74)(-c --cpu Cortex-M0 --li -g -O0 --apcs=interwork -I.\..\dk_apps\src\plf\refip\src\driver\i2c_eeprom -I.\..\dk_apps\src\plf\refip\src\driver\spi -I.\..\dk_apps\src\plf\refip\src\arch -I.\..\dk_apps\src\plf\refip\src\arch\compiler\rvds -I.\..\dk_apps\src\plf\refip\src\arch\ll\rvds -I.\..\dk_apps\src\plf\refip\src\driver\reg -I.\..\dk_apps\src\dialog\include -I.\include -I.\..\dk_apps\src\plf\refip\src\driver\gpio -I.\..\dk_apps\src\plf\refip\src\driver\adc -I.\..\dk_apps\src\plf\refip\src\driver\battery -I.\..\dk_apps\src\plf\refip\src\driver\spi_flash -I.\..\dk_apps\src\modules\app\api -I.\..\dk_apps\src\ip\ble\hl\src\rwble_hl -I..\dk_apps\src\plf\refip\src\driver\wkupct_quadec -I..\dk_apps\src\plf\refip\src\driver\pwm --c99 --thumb -c-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ARM-o .\out\spi_test.o --omf_browse .\out\spi_test.crf --depend .\out\spi_test.d)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+I (.\..\dk_apps\src\dialog\include\global_io.h)(0x53C91F72)
+I (.\..\dk_apps\src\dialog\include\datasheet.h)(0x53C91F72)
+I (.\include\periph_setup.h)(0x53C91F74)
+I (.\..\dk_apps\src\plf\refip\src\driver\gpio\gpio.h)(0x53C91F74)
+I (.\..\dk_apps\src\plf\refip\src\arch\arch.h)(0x53C91F74)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (.\..\dk_apps\src\plf\refip\src\arch\compiler\rvds\compiler.h)(0x53C91F74)
+I (C:\Keil\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (.\..\dk_apps\src\plf\refip\src\arch\ll\rvds\ll.h)(0x53C91F74)
+I (.\..\dk_apps\src\dialog\include\reg_intc.h)(0x53C91F72)
+I (.\..\dk_apps\src\dialog\include\_reg_intc.h)(0x53C91F72)
+I (.\..\dk_apps\src\plf\refip\src\driver\reg\reg_access.h)(0x53C91F74)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (.\..\dk_apps\src\dialog\include\ARMCM0.h)(0x53C91F72)
+I (.\..\dk_apps\src\dialog\include\core_cm0.h)(0x53C91F72)
+I (.\..\dk_apps\src\dialog\include\core_cmInstr.h)(0x53C91F72)
+I (.\..\dk_apps\src\dialog\include\core_cmFunc.h)(0x53C91F72)
+I (.\..\dk_apps\src\dialog\include\system_ARMCM0.h)(0x53C91F72)
+I (.\..\dk_apps\src\plf\refip\src\driver\i2c_eeprom\i2c_eeprom.h)(0x53C91F74)
+I (.\..\dk_apps\src\plf\refip\src\driver\spi\spi.h)(0x53C91F74)
+I (.\include\peripherals.h)(0x53C91F74)
+I (.\include\uart.h)(0x53C91F74)
+I (.\..\dk_apps\src\plf\refip\src\driver\spi_flash\spi_flash.h)(0x53C91F74)
+F (.\src\uart.c)(0x53C91F74)(-c --cpu Cortex-M0 --li -g -O0 --apcs=interwork -I.\..\dk_apps\src\plf\refip\src\driver\i2c_eeprom -I.\..\dk_apps\src\plf\refip\src\driver\spi -I.\..\dk_apps\src\plf\refip\src\arch -I.\..\dk_apps\src\plf\refip\src\arch\compiler\rvds -I.\..\dk_apps\src\plf\refip\src\arch\ll\rvds -I.\..\dk_apps\src\plf\refip\src\driver\reg -I.\..\dk_apps\src\dialog\include -I.\include -I.\..\dk_apps\src\plf\refip\src\driver\gpio -I.\..\dk_apps\src\plf\refip\src\driver\adc -I.\..\dk_apps\src\plf\refip\src\driver\battery -I.\..\dk_apps\src\plf\refip\src\driver\spi_flash -I.\..\dk_apps\src\modules\app\api -I.\..\dk_apps\src\ip\ble\hl\src\rwble_hl -I..\dk_apps\src\plf\refip\src\driver\wkupct_quadec -I..\dk_apps\src\plf\refip\src\driver\pwm --c99 --thumb -c-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ARM-o .\out\uart.o --omf_browse .\out\uart.crf --depend .\out\uart.d)
+I (.\..\dk_apps\src\dialog\include\global_io.h)(0x53C91F72)
+I (.\..\dk_apps\src\dialog\include\datasheet.h)(0x53C91F72)
+I (.\..\dk_apps\src\plf\refip\src\driver\gpio\gpio.h)(0x53C91F74)
+I (.\..\dk_apps\src\plf\refip\src\arch\arch.h)(0x53C91F74)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (.\..\dk_apps\src\plf\refip\src\arch\compiler\rvds\compiler.h)(0x53C91F74)
+I (C:\Keil\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (.\..\dk_apps\src\plf\refip\src\arch\ll\rvds\ll.h)(0x53C91F74)
+I (.\..\dk_apps\src\dialog\include\reg_intc.h)(0x53C91F72)
+I (.\..\dk_apps\src\dialog\include\_reg_intc.h)(0x53C91F72)
+I (.\..\dk_apps\src\plf\refip\src\driver\reg\reg_access.h)(0x53C91F74)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (.\..\dk_apps\src\dialog\include\ARMCM0.h)(0x53C91F72)
+I (.\..\dk_apps\src\dialog\include\core_cm0.h)(0x53C91F72)
+I (.\..\dk_apps\src\dialog\include\core_cmInstr.h)(0x53C91F72)
+I (.\..\dk_apps\src\dialog\include\core_cmFunc.h)(0x53C91F72)
+I (.\..\dk_apps\src\dialog\include\system_ARMCM0.h)(0x53C91F72)
+I (.\include\peripherals.h)(0x53C91F74)
+I (.\include\uart.h)(0x53C91F74)
+I (.\include\periph_setup.h)(0x53C91F74)
+I (.\..\dk_apps\src\plf\refip\src\driver\i2c_eeprom\i2c_eeprom.h)(0x53C91F74)
+I (.\..\dk_apps\src\plf\refip\src\driver\spi\spi.h)(0x53C91F74)
+F (..\dk_apps\src\plf\refip\src\driver\battery\battery.c)(0x53C91F74)(-c --cpu Cortex-M0 --li -g -O0 --apcs=interwork -I.\..\dk_apps\src\plf\refip\src\driver\i2c_eeprom -I.\..\dk_apps\src\plf\refip\src\driver\spi -I.\..\dk_apps\src\plf\refip\src\arch -I.\..\dk_apps\src\plf\refip\src\arch\compiler\rvds -I.\..\dk_apps\src\plf\refip\src\arch\ll\rvds -I.\..\dk_apps\src\plf\refip\src\driver\reg -I.\..\dk_apps\src\dialog\include -I.\include -I.\..\dk_apps\src\plf\refip\src\driver\gpio -I.\..\dk_apps\src\plf\refip\src\driver\adc -I.\..\dk_apps\src\plf\refip\src\driver\battery -I.\..\dk_apps\src\plf\refip\src\driver\spi_flash -I.\..\dk_apps\src\modules\app\api -I.\..\dk_apps\src\ip\ble\hl\src\rwble_hl -I..\dk_apps\src\plf\refip\src\driver\wkupct_quadec -I..\dk_apps\src\plf\refip\src\driver\pwm --c99 --thumb -c-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ARM-o .\out\battery.o --omf_browse .\out\battery.crf --depend .\out\battery.d)
+I (.\..\dk_apps\src\plf\refip\src\driver\adc\adc.h)(0x53C91F74)
+I (.\..\dk_apps\src\dialog\include\global_io.h)(0x53C91F72)
+I (.\..\dk_apps\src\dialog\include\datasheet.h)(0x53C91F72)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (..\dk_apps\src\plf\refip\src\driver\battery\battery.h)(0x53C91F74)
+F (.\src\DA14580_examples.c)(0x541E1863)(-c --cpu Cortex-M0 --li -g -O0 --apcs=interwork -I.\..\dk_apps\src\plf\refip\src\driver\i2c_eeprom -I.\..\dk_apps\src\plf\refip\src\driver\spi -I.\..\dk_apps\src\plf\refip\src\arch -I.\..\dk_apps\src\plf\refip\src\arch\compiler\rvds -I.\..\dk_apps\src\plf\refip\src\arch\ll\rvds -I.\..\dk_apps\src\plf\refip\src\driver\reg -I.\..\dk_apps\src\dialog\include -I.\include -I.\..\dk_apps\src\plf\refip\src\driver\gpio -I.\..\dk_apps\src\plf\refip\src\driver\adc -I.\..\dk_apps\src\plf\refip\src\driver\battery -I.\..\dk_apps\src\plf\refip\src\driver\spi_flash -I.\..\dk_apps\src\modules\app\api -I.\..\dk_apps\src\ip\ble\hl\src\rwble_hl -I..\dk_apps\src\plf\refip\src\driver\wkupct_quadec -I..\dk_apps\src\plf\refip\src\driver\pwm --c99 --thumb -c-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ARM-o .\out\da14580_examples.o --omf_browse .\out\da14580_examples.crf --depend .\out\da14580_examples.d)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+I (.\..\dk_apps\src\dialog\include\global_io.h)(0x53C91F72)
+I (.\..\dk_apps\src\dialog\include\datasheet.h)(0x53C91F72)
+I (.\include\DA14580_examples.h)(0x53C91F74)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (.\include\peripherals.h)(0x53C91F74)
+I (.\..\dk_apps\src\plf\refip\src\driver\spi\spi.h)(0x53C91F74)
+I (.\..\dk_apps\src\plf\refip\src\driver\gpio\gpio.h)(0x53C91F74)
+I (.\..\dk_apps\src\plf\refip\src\arch\arch.h)(0x53C91F74)
+I (.\..\dk_apps\src\plf\refip\src\arch\compiler\rvds\compiler.h)(0x53C91F74)
+I (C:\Keil\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (.\..\dk_apps\src\plf\refip\src\arch\ll\rvds\ll.h)(0x53C91F74)
+I (.\..\dk_apps\src\dialog\include\reg_intc.h)(0x53C91F72)
+I (.\..\dk_apps\src\dialog\include\_reg_intc.h)(0x53C91F72)
+I (.\..\dk_apps\src\plf\refip\src\driver\reg\reg_access.h)(0x53C91F74)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (.\..\dk_apps\src\dialog\include\ARMCM0.h)(0x53C91F72)
+I (.\..\dk_apps\src\dialog\include\core_cm0.h)(0x53C91F72)
+I (.\..\dk_apps\src\dialog\include\core_cmInstr.h)(0x53C91F72)
+I (.\..\dk_apps\src\dialog\include\core_cmFunc.h)(0x53C91F72)
+I (.\..\dk_apps\src\dialog\include\system_ARMCM0.h)(0x53C91F72)
+I (.\..\dk_apps\src\plf\refip\src\driver\spi_flash\spi_flash.h)(0x53C91F74)
+I (.\..\dk_apps\src\plf\refip\src\driver\i2c_eeprom\i2c_eeprom.h)(0x53C91F74)
+I (.\..\dk_apps\src\plf\refip\src\driver\battery\battery.h)(0x53C91F74)
+I (.\include\spi_test.h)(0x53C91F74)
+I (.\include\uart.h)(0x53C91F74)
+I (.\include\eeprom_test.h)(0x53C91F74)
+I (.\include\periph_setup.h)(0x53C91F74)
+I (.\include\quad_decoder_test.h)(0x53C91F74)
+I (.\include\pwm_test.h)(0x53C91F74)
+I (..\dk_apps\src\plf\refip\src\driver\pwm\pwm.h)(0x53C91F74)
+F (.\src\quad_decoder_test.c)(0x53C91F74)(-c --cpu Cortex-M0 --li -g -O0 --apcs=interwork -I.\..\dk_apps\src\plf\refip\src\driver\i2c_eeprom -I.\..\dk_apps\src\plf\refip\src\driver\spi -I.\..\dk_apps\src\plf\refip\src\arch -I.\..\dk_apps\src\plf\refip\src\arch\compiler\rvds -I.\..\dk_apps\src\plf\refip\src\arch\ll\rvds -I.\..\dk_apps\src\plf\refip\src\driver\reg -I.\..\dk_apps\src\dialog\include -I.\include -I.\..\dk_apps\src\plf\refip\src\driver\gpio -I.\..\dk_apps\src\plf\refip\src\driver\adc -I.\..\dk_apps\src\plf\refip\src\driver\battery -I.\..\dk_apps\src\plf\refip\src\driver\spi_flash -I.\..\dk_apps\src\modules\app\api -I.\..\dk_apps\src\ip\ble\hl\src\rwble_hl -I..\dk_apps\src\plf\refip\src\driver\wkupct_quadec -I..\dk_apps\src\plf\refip\src\driver\pwm --c99 --thumb -c-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ARM-o .\out\quad_decoder_test.o --omf_browse .\out\quad_decoder_test.crf --depend .\out\quad_decoder_test.d)
+I (.\include\periph_setup.h)(0x53C91F74)
+I (.\..\dk_apps\src\dialog\include\global_io.h)(0x53C91F72)
+I (.\..\dk_apps\src\dialog\include\datasheet.h)(0x53C91F72)
+I (.\..\dk_apps\src\plf\refip\src\driver\gpio\gpio.h)(0x53C91F74)
+I (.\..\dk_apps\src\plf\refip\src\arch\arch.h)(0x53C91F74)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (.\..\dk_apps\src\plf\refip\src\arch\compiler\rvds\compiler.h)(0x53C91F74)
+I (C:\Keil\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (.\..\dk_apps\src\plf\refip\src\arch\ll\rvds\ll.h)(0x53C91F74)
+I (.\..\dk_apps\src\dialog\include\reg_intc.h)(0x53C91F72)
+I (.\..\dk_apps\src\dialog\include\_reg_intc.h)(0x53C91F72)
+I (.\..\dk_apps\src\plf\refip\src\driver\reg\reg_access.h)(0x53C91F74)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (.\..\dk_apps\src\dialog\include\ARMCM0.h)(0x53C91F72)
+I (.\..\dk_apps\src\dialog\include\core_cm0.h)(0x53C91F72)
+I (.\..\dk_apps\src\dialog\include\core_cmInstr.h)(0x53C91F72)
+I (.\..\dk_apps\src\dialog\include\core_cmFunc.h)(0x53C91F72)
+I (.\..\dk_apps\src\dialog\include\system_ARMCM0.h)(0x53C91F72)
+I (.\..\dk_apps\src\plf\refip\src\driver\i2c_eeprom\i2c_eeprom.h)(0x53C91F74)
+I (.\..\dk_apps\src\plf\refip\src\driver\spi\spi.h)(0x53C91F74)
+I (.\include\peripherals.h)(0x53C91F74)
+I (.\include\uart.h)(0x53C91F74)
+I (..\dk_apps\src\plf\refip\src\driver\wkupct_quadec\wkupct_quadec.h)(0x53C91F74)
+F (..\dk_apps\src\plf\refip\src\driver\wkupct_quadec\wkupct_quadec.c)(0x53C91F74)(-c --cpu Cortex-M0 --li -g -O0 --apcs=interwork -I.\..\dk_apps\src\plf\refip\src\driver\i2c_eeprom -I.\..\dk_apps\src\plf\refip\src\driver\spi -I.\..\dk_apps\src\plf\refip\src\arch -I.\..\dk_apps\src\plf\refip\src\arch\compiler\rvds -I.\..\dk_apps\src\plf\refip\src\arch\ll\rvds -I.\..\dk_apps\src\plf\refip\src\driver\reg -I.\..\dk_apps\src\dialog\include -I.\include -I.\..\dk_apps\src\plf\refip\src\driver\gpio -I.\..\dk_apps\src\plf\refip\src\driver\adc -I.\..\dk_apps\src\plf\refip\src\driver\battery -I.\..\dk_apps\src\plf\refip\src\driver\spi_flash -I.\..\dk_apps\src\modules\app\api -I.\..\dk_apps\src\ip\ble\hl\src\rwble_hl -I..\dk_apps\src\plf\refip\src\driver\wkupct_quadec -I..\dk_apps\src\plf\refip\src\driver\pwm --c99 --thumb -c-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ARM-o .\out\wkupct_quadec.o --omf_browse .\out\wkupct_quadec.crf --depend .\out\wkupct_quadec.d)
+I (.\..\dk_apps\src\dialog\include\global_io.h)(0x53C91F72)
+I (.\..\dk_apps\src\dialog\include\datasheet.h)(0x53C91F72)
+I (.\..\dk_apps\src\dialog\include\ARMCM0.h)(0x53C91F72)
+I (.\..\dk_apps\src\dialog\include\core_cm0.h)(0x53C91F72)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (.\..\dk_apps\src\dialog\include\core_cmInstr.h)(0x53C91F72)
+I (.\..\dk_apps\src\dialog\include\core_cmFunc.h)(0x53C91F72)
+I (.\..\dk_apps\src\dialog\include\system_ARMCM0.h)(0x53C91F72)
+I (..\dk_apps\src\plf\refip\src\driver\wkupct_quadec\wkupct_quadec.h)(0x53C91F74)
+I (C:\Keil\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (.\include\periph_setup.h)(0x53C91F74)
+I (.\..\dk_apps\src\plf\refip\src\driver\gpio\gpio.h)(0x53C91F74)
+I (.\..\dk_apps\src\plf\refip\src\arch\arch.h)(0x53C91F74)
+I (.\..\dk_apps\src\plf\refip\src\arch\compiler\rvds\compiler.h)(0x53C91F74)
+I (.\..\dk_apps\src\plf\refip\src\arch\ll\rvds\ll.h)(0x53C91F74)
+I (.\..\dk_apps\src\dialog\include\reg_intc.h)(0x53C91F72)
+I (.\..\dk_apps\src\dialog\include\_reg_intc.h)(0x53C91F72)
+I (.\..\dk_apps\src\plf\refip\src\driver\reg\reg_access.h)(0x53C91F74)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (.\..\dk_apps\src\plf\refip\src\driver\i2c_eeprom\i2c_eeprom.h)(0x53C91F74)
+I (.\..\dk_apps\src\plf\refip\src\driver\spi\spi.h)(0x53C91F74)
+F (.\src\pwm_test.c)(0x53C91F74)(-c --cpu Cortex-M0 --li -g -O0 --apcs=interwork -I.\..\dk_apps\src\plf\refip\src\driver\i2c_eeprom -I.\..\dk_apps\src\plf\refip\src\driver\spi -I.\..\dk_apps\src\plf\refip\src\arch -I.\..\dk_apps\src\plf\refip\src\arch\compiler\rvds -I.\..\dk_apps\src\plf\refip\src\arch\ll\rvds -I.\..\dk_apps\src\plf\refip\src\driver\reg -I.\..\dk_apps\src\dialog\include -I.\include -I.\..\dk_apps\src\plf\refip\src\driver\gpio -I.\..\dk_apps\src\plf\refip\src\driver\adc -I.\..\dk_apps\src\plf\refip\src\driver\battery -I.\..\dk_apps\src\plf\refip\src\driver\spi_flash -I.\..\dk_apps\src\modules\app\api -I.\..\dk_apps\src\ip\ble\hl\src\rwble_hl -I..\dk_apps\src\plf\refip\src\driver\wkupct_quadec -I..\dk_apps\src\plf\refip\src\driver\pwm --c99 --thumb -c-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ARM-o .\out\pwm_test.o --omf_browse .\out\pwm_test.crf --depend .\out\pwm_test.d)
+I (.\..\dk_apps\src\dialog\include\global_io.h)(0x53C91F72)
+I (.\..\dk_apps\src\dialog\include\datasheet.h)(0x53C91F72)
+I (.\include\periph_setup.h)(0x53C91F74)
+I (.\..\dk_apps\src\plf\refip\src\driver\gpio\gpio.h)(0x53C91F74)
+I (.\..\dk_apps\src\plf\refip\src\arch\arch.h)(0x53C91F74)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (.\..\dk_apps\src\plf\refip\src\arch\compiler\rvds\compiler.h)(0x53C91F74)
+I (C:\Keil\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (.\..\dk_apps\src\plf\refip\src\arch\ll\rvds\ll.h)(0x53C91F74)
+I (.\..\dk_apps\src\dialog\include\reg_intc.h)(0x53C91F72)
+I (.\..\dk_apps\src\dialog\include\_reg_intc.h)(0x53C91F72)
+I (.\..\dk_apps\src\plf\refip\src\driver\reg\reg_access.h)(0x53C91F74)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (.\..\dk_apps\src\dialog\include\ARMCM0.h)(0x53C91F72)
+I (.\..\dk_apps\src\dialog\include\core_cm0.h)(0x53C91F72)
+I (.\..\dk_apps\src\dialog\include\core_cmInstr.h)(0x53C91F72)
+I (.\..\dk_apps\src\dialog\include\core_cmFunc.h)(0x53C91F72)
+I (.\..\dk_apps\src\dialog\include\system_ARMCM0.h)(0x53C91F72)
+I (.\..\dk_apps\src\plf\refip\src\driver\i2c_eeprom\i2c_eeprom.h)(0x53C91F74)
+I (.\..\dk_apps\src\plf\refip\src\driver\spi\spi.h)(0x53C91F74)
+I (.\include\peripherals.h)(0x53C91F74)
+I (.\include\uart.h)(0x53C91F74)
+I (.\include\pwm_test.h)(0x53C91F74)
+I (..\dk_apps\src\plf\refip\src\driver\pwm\pwm.h)(0x53C91F74)
+I (.\include\sw_cursor.h)(0x53C91F74)
+F (..\dk_apps\src\plf\refip\src\driver\pwm\pwm.c)(0x53C91F74)(-c --cpu Cortex-M0 --li -g -O0 --apcs=interwork -I.\..\dk_apps\src\plf\refip\src\driver\i2c_eeprom -I.\..\dk_apps\src\plf\refip\src\driver\spi -I.\..\dk_apps\src\plf\refip\src\arch -I.\..\dk_apps\src\plf\refip\src\arch\compiler\rvds -I.\..\dk_apps\src\plf\refip\src\arch\ll\rvds -I.\..\dk_apps\src\plf\refip\src\driver\reg -I.\..\dk_apps\src\dialog\include -I.\include -I.\..\dk_apps\src\plf\refip\src\driver\gpio -I.\..\dk_apps\src\plf\refip\src\driver\adc -I.\..\dk_apps\src\plf\refip\src\driver\battery -I.\..\dk_apps\src\plf\refip\src\driver\spi_flash -I.\..\dk_apps\src\modules\app\api -I.\..\dk_apps\src\ip\ble\hl\src\rwble_hl -I..\dk_apps\src\plf\refip\src\driver\wkupct_quadec -I..\dk_apps\src\plf\refip\src\driver\pwm --c99 --thumb -c-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ARM-o .\out\pwm.o --omf_browse .\out\pwm.crf --depend .\out\pwm.d)
+I (.\..\dk_apps\src\dialog\include\global_io.h)(0x53C91F72)
+I (.\..\dk_apps\src\dialog\include\datasheet.h)(0x53C91F72)
+I (..\dk_apps\src\plf\refip\src\driver\pwm\pwm.h)(0x53C91F74)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (.\include\periph_setup.h)(0x53C91F74)
+I (.\..\dk_apps\src\plf\refip\src\driver\gpio\gpio.h)(0x53C91F74)
+I (.\..\dk_apps\src\plf\refip\src\arch\arch.h)(0x53C91F74)
+I (.\..\dk_apps\src\plf\refip\src\arch\compiler\rvds\compiler.h)(0x53C91F74)
+I (C:\Keil\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (.\..\dk_apps\src\plf\refip\src\arch\ll\rvds\ll.h)(0x53C91F74)
+I (.\..\dk_apps\src\dialog\include\reg_intc.h)(0x53C91F72)
+I (.\..\dk_apps\src\dialog\include\_reg_intc.h)(0x53C91F72)
+I (.\..\dk_apps\src\plf\refip\src\driver\reg\reg_access.h)(0x53C91F74)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (.\..\dk_apps\src\dialog\include\ARMCM0.h)(0x53C91F72)
+I (.\..\dk_apps\src\dialog\include\core_cm0.h)(0x53C91F72)
+I (.\..\dk_apps\src\dialog\include\core_cmInstr.h)(0x53C91F72)
+I (.\..\dk_apps\src\dialog\include\core_cmFunc.h)(0x53C91F72)
+I (.\..\dk_apps\src\dialog\include\system_ARMCM0.h)(0x53C91F72)
+I (.\..\dk_apps\src\plf\refip\src\driver\i2c_eeprom\i2c_eeprom.h)(0x53C91F74)
+I (.\..\dk_apps\src\plf\refip\src\driver\spi\spi.h)(0x53C91F74)
+F (.\src\per_ex_hard_fault.c)(0x53C91F74)(-c --cpu Cortex-M0 --li -g -O0 --apcs=interwork -I.\..\dk_apps\src\plf\refip\src\driver\i2c_eeprom -I.\..\dk_apps\src\plf\refip\src\driver\spi -I.\..\dk_apps\src\plf\refip\src\arch -I.\..\dk_apps\src\plf\refip\src\arch\compiler\rvds -I.\..\dk_apps\src\plf\refip\src\arch\ll\rvds -I.\..\dk_apps\src\plf\refip\src\driver\reg -I.\..\dk_apps\src\dialog\include -I.\include -I.\..\dk_apps\src\plf\refip\src\driver\gpio -I.\..\dk_apps\src\plf\refip\src\driver\adc -I.\..\dk_apps\src\plf\refip\src\driver\battery -I.\..\dk_apps\src\plf\refip\src\driver\spi_flash -I.\..\dk_apps\src\modules\app\api -I.\..\dk_apps\src\ip\ble\hl\src\rwble_hl -I..\dk_apps\src\plf\refip\src\driver\wkupct_quadec -I..\dk_apps\src\plf\refip\src\driver\pwm --c99 --thumb -c-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ARM-o .\out\per_ex_hard_fault.o --omf_browse .\out\per_ex_hard_fault.crf --depend .\out\per_ex_hard_fault.d)
+F (.\src\sw_cursor.c)(0x53C91F74)(-c --cpu Cortex-M0 --li -g -O0 --apcs=interwork -I.\..\dk_apps\src\plf\refip\src\driver\i2c_eeprom -I.\..\dk_apps\src\plf\refip\src\driver\spi -I.\..\dk_apps\src\plf\refip\src\arch -I.\..\dk_apps\src\plf\refip\src\arch\compiler\rvds -I.\..\dk_apps\src\plf\refip\src\arch\ll\rvds -I.\..\dk_apps\src\plf\refip\src\driver\reg -I.\..\dk_apps\src\dialog\include -I.\include -I.\..\dk_apps\src\plf\refip\src\driver\gpio -I.\..\dk_apps\src\plf\refip\src\driver\adc -I.\..\dk_apps\src\plf\refip\src\driver\battery -I.\..\dk_apps\src\plf\refip\src\driver\spi_flash -I.\..\dk_apps\src\modules\app\api -I.\..\dk_apps\src\ip\ble\hl\src\rwble_hl -I..\dk_apps\src\plf\refip\src\driver\wkupct_quadec -I..\dk_apps\src\plf\refip\src\driver\pwm --c99 --thumb -c-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ARM-o .\out\sw_cursor.o --omf_browse .\out\sw_cursor.crf --depend .\out\sw_cursor.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (.\..\dk_apps\src\plf\refip\src\driver\gpio\gpio.h)(0x53C91F74)
+I (.\..\dk_apps\src\plf\refip\src\arch\arch.h)(0x53C91F74)
+I (.\..\dk_apps\src\plf\refip\src\arch\compiler\rvds\compiler.h)(0x53C91F74)
+I (C:\Keil\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (.\..\dk_apps\src\plf\refip\src\arch\ll\rvds\ll.h)(0x53C91F74)
+I (.\..\dk_apps\src\dialog\include\reg_intc.h)(0x53C91F72)
+I (.\..\dk_apps\src\dialog\include\_reg_intc.h)(0x53C91F72)
+I (.\..\dk_apps\src\plf\refip\src\driver\reg\reg_access.h)(0x53C91F74)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (.\..\dk_apps\src\dialog\include\ARMCM0.h)(0x53C91F72)
+I (.\..\dk_apps\src\dialog\include\global_io.h)(0x53C91F72)
+I (.\..\dk_apps\src\dialog\include\datasheet.h)(0x53C91F72)
+I (.\..\dk_apps\src\dialog\include\core_cm0.h)(0x53C91F72)
+I (.\..\dk_apps\src\dialog\include\core_cmInstr.h)(0x53C91F72)
+I (.\..\dk_apps\src\dialog\include\core_cmFunc.h)(0x53C91F72)
+I (.\..\dk_apps\src\dialog\include\system_ARMCM0.h)(0x53C91F72)
+I (.\include\periph_setup.h)(0x53C91F74)
+I (.\..\dk_apps\src\plf\refip\src\driver\i2c_eeprom\i2c_eeprom.h)(0x53C91F74)
+I (.\..\dk_apps\src\plf\refip\src\driver\spi\spi.h)(0x53C91F74)
+F (.\include\peripherals.h)(0x53C91F74)()
+F (..\dk_apps\src\plf\refip\src\driver\spi\spi.h)(0x53C91F74)()
+F (.\include\periph_setup.h)(0x53C91F74)()
+F (.\include\eeprom_test.h)(0x53C91F74)()
+F (.\include\spi_test.h)(0x53C91F74)()
+F (..\dk_apps\src\plf\refip\src\driver\gpio\gpio.h)(0x53C91F74)()
+F (.\include\uart.h)(0x53C91F74)()
+F (..\dk_apps\src\plf\refip\src\driver\battery\battery.h)(0x53C91F74)()
+F (..\dk_apps\src\plf\refip\src\driver\spi_flash\spi_flash.h)(0x53C91F74)()
+F (..\dk_apps\src\plf\refip\src\driver\i2c_eeprom\i2c_eeprom.h)(0x53C91F74)()
+F (.\include\DA14580_examples.h)(0x53C91F74)()
+F (.\include\sw_cursor.h)(0x53C91F74)()
+F (.\misc\serial_out.txt)(0x53C91F74)()

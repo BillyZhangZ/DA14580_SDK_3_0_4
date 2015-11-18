@@ -1,0 +1,33 @@
+*** Creating Trace Output File '.\Out\host_proxr.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\out\startup_cmsdk_cm0.o"'
+### List of Objects: adding '".\out\system_cmsdk.o"'
+### List of Objects: adding '".\out\app_task.o"'
+### List of Objects: adding '".\out\ble_msg.o"'
+### List of Objects: adding '".\out\interrupts.o"'
+### List of Objects: adding '".\out\peripherals.o"'
+### List of Objects: adding '".\out\timer.o"'
+### List of Objects: adding '".\out\queue.o"'
+### List of Objects: adding '".\out\app_button_led.o"'
+### List of Objects: adding '".\out\spi_booter.o"'
+### List of Objects: adding '".\out\app.o"'
+### List of Objects: adding '".\out\spi.o"'
+### List of Objects: adding '".\out\gpio.o"'
+### List of Objects: adding '".\out\spi_hci_msg.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M0 ".\out\startup_cmsdk_cm0.o" ".\out\system_cmsdk.o" ".\out\app_task.o" ".\out\ble_msg.o" ".\out\interrupts.o" ".\out\peripherals.o" ".\out\timer.o" ".\out\queue.o" ".\out\app_button_led.o" ".\out\spi_booter.o" ".\out\app.o" ".\out\spi.o" ".\out\gpio.o" ".\out\spi_hci_msg.o" 
+--strict --scatter ".\Out\host_proxr.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Out\host_proxr.map" -o .\Out\host_proxr.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\Out\host_proxr.axf'
+### ADS-LD Command File: '.\Out\host_proxr.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\Out\host_proxr.lnp', Handle=0x000001DC
+### Writing '.lnp' file
+### ADS-LD Command file '.\Out\host_proxr.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

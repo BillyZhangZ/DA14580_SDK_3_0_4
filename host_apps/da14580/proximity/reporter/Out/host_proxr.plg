@@ -1,0 +1,20 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+E:\HGroup\Work\Ref\dialog\dialog\DA14580_SDK_3.0.4.0\host_apps\da14580\proximity\reporter\host_proxr.uvproj
+Project File Date:  09/22/2015
+
+<h2>Output:</h2>
+Load "E:\\HGroup\\Work\\Ref\\dialog\\dialog\\DA14580_SDK_3.0.4.0\\host_apps\\da14580\\proximity\\reporter\\Out\\host_proxr.AXF" 
+_____^
+*** error 56: cannot open file
+Build target 'Cortex-M0 SDK - Simulator'
+assembling startup_CMSDK_CM0.s...
+startup_CMSDK_CM0.s: error: A3906U: Malformed via file '.\out\startup_cmsdk_cm0._ia'.
+Target not created
+Build target 'Cortex-M0 SDK - Simulator'
+assembling startup_CMSDK_CM0.s...
+startup_CMSDK_CM0.s: error: A3906U: Malformed via file '.\out\startup_cmsdk_cm0._ia'.
+Target not created

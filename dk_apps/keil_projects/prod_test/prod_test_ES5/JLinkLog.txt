@@ -1,0 +1,24 @@
+
+T0D98 000:363 SEGGER J-Link V4.35b (beta) Log File (0000ms, 0361ms total)
+T0D98 000:363 DLL Compiled: Sep  2 2011 18:34:46 (0000ms, 0361ms total)
+T0D98 000:363 Logging started @ 2015-11-04 16:36 (0000ms, 0361ms total)
+T0D98 000:363 JLINK_SetWarnOutHandler(...) (0000ms, 0361ms total)
+T0D98 000:363 JLINK_OpenEx(...)
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N: 20090928
+Feature(s): RDI,FlashDL,FlashBP,JFlash,GDBFull  returns O.K. (0113ms, 0361ms total)
+T0D98 000:476 JLINK_SetErrorOutHandler(...) (0000ms, 0474ms total)
+T0D98 000:476 JLINK_ExecCommand("Device = Cortex-M0", ...)  returns 0x00 (0000ms, 0474ms total)
+T0D98 000:476 JLINK_ExecCommand("ProjectFile = "E:\HGroup\Work\Ref\dialog\dialog\DA14580_SDK_3.0.4.0\dk_apps\keil_projects\prod_test\prod_test_ES5\JLinkSettings.ini"", ...)  returns 0x00 (0002ms, 0474ms total)
+T0D98 000:480 JLINK_ExecCommand("DisableConnectionTimeout", ...)  returns 0x00 (0000ms, 0476ms total)
+T0D98 000:482 JLINK_TIF_Select(JLINKARM_TIF_JTAG)  returns 0x00 (0000ms, 0476ms total)
+T0D98 000:485 JLINK_SetSpeed(2000) (0001ms, 0476ms total)
+T0D98 000:486 JLINK_GetHardwareVersion()  returns 0x11170 (0000ms, 0477ms total)
+T0D98 000:486 JLINK_GetDLLVersion()  returns 43502 (0000ms, 0477ms total)
+T0D98 000:486 JLINK_GetFirmwareString(...) (0000ms, 0477ms total)
+T0D98 000:486 JLINK_GetDLLVersion()  returns 43502 (0000ms, 0477ms total)
+T0D98 000:486 JLINK_GetCompileDateTime() (0000ms, 0477ms total)
+T0D98 000:486 JLINK_GetFirmwareString(...) (0000ms, 0477ms total)
+T0D98 000:486 JLINK_GetHardwareVersion()  returns 0x11170 (0000ms, 0477ms total)
+T0D98 000:486 JLINK_GetIdData(...) >0x2F8 JTAG>Could not measure total IR len. TDO is constant high. >0x30 JTAG>CPU core not found. (0006ms, 0477ms total)

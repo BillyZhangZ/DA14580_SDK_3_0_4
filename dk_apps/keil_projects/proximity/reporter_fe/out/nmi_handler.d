@@ -1,0 +1,15 @@
+.\out\nmi_handler.o: ..\..\..\src\plf\refip\src\arch\main\ble\nmi_handler.c
+.\out\nmi_handler.o: da14580_config.h
+.\out\nmi_handler.o: da14580_stack_config.h
+.\out\nmi_handler.o: .\..\..\..\src\modules\rwip\api\rwip_config.h
+.\out\nmi_handler.o: .\..\..\..\src\ip\ble\ll\src\rwble\rwble_config.h
+.\out\nmi_handler.o: .\..\..\..\src\modules\rwip\api\rwip_config.h
+.\out\nmi_handler.o: .\..\..\..\src\ip\ble\hl\src\rwble_hl\rwble_hl_config.h
+.\out\nmi_handler.o: .\..\..\..\src\dialog\include\global_io.h
+.\out\nmi_handler.o: .\..\..\..\src\dialog\include\datasheet.h
+.\out\nmi_handler.o: .\..\..\..\src\dialog\include\ARMCM0.h
+.\out\nmi_handler.o: .\..\..\..\src\dialog\include\core_cm0.h
+.\out\nmi_handler.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\out\nmi_handler.o: .\..\..\..\src\dialog\include\core_cmInstr.h
+.\out\nmi_handler.o: .\..\..\..\src\dialog\include\core_cmFunc.h
+.\out\nmi_handler.o: .\..\..\..\src\dialog\include\system_ARMCM0.h

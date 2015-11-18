@@ -1,0 +1,28 @@
+
+T16F4 000:360 SEGGER J-Link V4.54a Log File (0000ms, 0360ms total)
+T16F4 000:360 DLL Compiled: Sep 17 2012 15:58:45 (0000ms, 0360ms total)
+T16F4 000:360 Logging started @ 2014-08-20 20:32 (0000ms, 0360ms total)
+T16F4 000:361 JLINK_SetWarnOutHandler(...) (0000ms, 0360ms total)
+T16F4 000:361 JLINK_OpenEx(...)
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N: 17935099
+Feature(s): RDI,FlashDL,FlashBP,JFlash  returns O.K. (0031ms, 0391ms total)
+T16F4 000:392 JLINK_SetErrorOutHandler(...) (0000ms, 0391ms total)
+T16F4 000:392 JLINK_ExecCommand("ProjectFile = "E:\DA14580\资料\资料\源代码\DA14580_SDK_3.0.4.0\host_apps\da14580\proximity\reporter\JLinkSettings.ini"", ...)  returns 0x00 (0001ms, 0392ms total)
+T16F4 000:393 JLINK_ExecCommand("Device = Cortex-M0", ...)
+                JLINK_AddMirrorAreaEx(Addr = 0x00000000, Size = 0x00000000) (0000ms, 0000ms total)
+              Device "CORTEX-M0" selected (0 KB flash, 0 KB RAM).  returns 0x00 (0000ms, 0392ms total)
+T16F4 000:393 JLINK_ExecCommand("DisableConnectionTimeout", ...)  returns 0x00 (0000ms, 0392ms total)
+T16F4 000:393 JLINK_TIF_Select(JLINKARM_TIF_JTAG)  returns 0x00 (0000ms, 0392ms total)
+T16F4 000:393 JLINK_SetSpeed(2000) (0001ms, 0393ms total)
+T16F4 000:394 JLINK_GetHardwareVersion()  returns 0x13880 (0000ms, 0393ms total)
+T16F4 000:394 JLINK_GetDLLVersion()  returns 45401 (0000ms, 0393ms total)
+T16F4 000:394 JLINK_GetFirmwareString(...) (0000ms, 0393ms total)
+T16F4 000:394 JLINK_GetDLLVersion()  returns 45401 (0000ms, 0393ms total)
+T16F4 000:394 JLINK_GetCompileDateTime() (0000ms, 0393ms total)
+T16F4 000:394 JLINK_GetFirmwareString(...) (0000ms, 0393ms total)
+T16F4 000:394 JLINK_GetHardwareVersion()  returns 0x13880 (0000ms, 0393ms total)
+T16F4 000:395 JLINK_GetIdData(...) >0x2F8 JTAG>TotalIRLen = ?, IRPrint = 0x..000000000000000000000000 >0x30 JTAG> (0005ms, 0398ms total)
+T16F4 003:921 JLINK_Close() (0485ms, 0883ms total)
+T16F4 004:407 JLINK_Close() (0000ms, 0883ms total)

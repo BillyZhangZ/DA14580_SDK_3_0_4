@@ -1,0 +1,12 @@
+.\out\system_armcm0.o: ..\..\..\src\plf\refip\src\arch\boot\rvds\system_ARMCM0.c
+.\out\system_armcm0.o: E:\HGroup\Work\Ref\dialog\dialog\DA14580_SDK_3.0.4.0\dk_apps\keil_projects\throughput_eval\throughput_eval_peripheral_fh\da14580_config.h
+.\out\system_armcm0.o: E:\HGroup\Work\Ref\dialog\dialog\DA14580_SDK_3.0.4.0\dk_apps\keil_projects\throughput_eval\throughput_eval_peripheral_fh\da14580_stack_config.h
+.\out\system_armcm0.o: .\..\..\..\src\dialog\include\ARMCM0.h
+.\out\system_armcm0.o: .\..\..\..\src\dialog\include\global_io.h
+.\out\system_armcm0.o: .\..\..\..\src\dialog\include\datasheet.h
+.\out\system_armcm0.o: .\..\..\..\src\dialog\include\core_cm0.h
+.\out\system_armcm0.o: C:\Keil\ARM\RV31\INC\stdint.h
+.\out\system_armcm0.o: .\..\..\..\src\dialog\include\core_cmInstr.h
+.\out\system_armcm0.o: .\..\..\..\src\dialog\include\core_cmFunc.h
+.\out\system_armcm0.o: .\..\..\..\src\dialog\include\system_ARMCM0.h
+.\out\system_armcm0.o: C:\Keil\ARM\RV31\INC\string.h
