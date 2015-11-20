@@ -759,6 +759,9 @@ stream_fifo_init ();
                 
 #ifdef CFG_PRINTF
                 {
+				#ifdef TEST_UART2_TX
+					arch_printf("%d",0xaa);
+				#endif
                     arch_printf_process();
                 }
 #endif                

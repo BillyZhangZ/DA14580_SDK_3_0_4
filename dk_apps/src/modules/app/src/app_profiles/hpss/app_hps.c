@@ -46,7 +46,10 @@
 
 void app_hps_init(void)
 {
-	arch_printf("hps init\n");
+
+	arch_printf("%d",0xaa);
+	
+	
     return;
 }
 

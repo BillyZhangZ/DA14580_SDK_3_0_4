@@ -88,6 +88,21 @@ enum
     HPSS_STATUS_CODE_NTF_CFG       = 0x01,
 };
 
+///Control Point value, http method
+enum
+{
+	HTTP_RFU = 0,
+	HTTP_GET,
+	HTTP_POST,
+	HTTP_PUT,
+	HTTP_DELETE,
+	HTTPS_GET,
+	HTTPS_POST,
+	HTTPS_PUT,
+	HTTPS_DELETE,
+	HTTP_CANCEL,
+};
+
 /// Pointer to the connection clean-up function											  
 #define HPS_CLEANUP_FNCT        (NULL)
 
